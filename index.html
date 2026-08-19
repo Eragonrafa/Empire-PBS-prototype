@@ -7,14 +7,12 @@
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body class="dark-theme">
-
   <header>
     <h1>Pokemon PBS Compendium</h1>
     <p class="subtitle">Click on any move or ability for details. Click a Pokemon's name for defensive type matchups.</p>
   </header>
 
-  <!-- Filter & Sort Bar -->
-  <div class="filter-container">
+  <section class="filter-container">
     <div class="filter-group">
       <label for="filter-name">Name:</label>
       <input type="text" id="filter-name" placeholder="e.g. Bulbasaur" />
@@ -81,16 +79,17 @@
         <option value="">All Egg Groups</option>
         <option value="Monster">Monster</option>
         <option value="Water1">Water 1</option>
-        <option value="Water2">Water 2</option>
-        <option value="Water3">Water 3</option>
         <option value="Bug">Bug</option>
         <option value="Flying">Flying</option>
         <option value="Field">Field</option>
         <option value="Fairy">Fairy</option>
         <option value="Grass">Grass</option>
-        <option value="Humanlike">Human-Like</option>
+        <option value="Humanlike">Human-like</option>
+        <option value="Water3">Water 3</option>
         <option value="Mineral">Mineral</option>
         <option value="Amorphous">Amorphous</option>
+        <option value="Water2">Water 2</option>
+        <option value="Ditto">Ditto</option>
         <option value="Dragon">Dragon</option>
         <option value="Undiscovered">Undiscovered</option>
       </select>
@@ -124,6 +123,7 @@
         <option value="spa_desc">Sp. Atk (High to Low)</option>
         <option value="spd_desc">Sp. Def (High to Low)</option>
         <option value="spe_desc">Speed (High to Low)</option>
+        <option value="spe_asc">Speed (Low to High)</option>
       </select>
     </div>
 
@@ -134,30 +134,27 @@
       </label>
     </div>
 
-	<div class="filter-group checkbox-group">
+    <div class="filter-group checkbox-group">
       <label for="dark-mode-toggle">
         <input type="checkbox" id="dark-mode-toggle" />
         Black Theme
       </label>
     </div>
-	
 
-    <!-- Actions: Search & Reset -->
     <div class="button-group">
-      <button id="search-btn" type="button">Search</button>
-      <button id="reset-btn" type="button">Reset</button>
+      <button type="button" id="search-btn">Search</button>
+      <button type="button" id="reset-btn">Reset</button>
     </div>
-  </div>
+  </section>
 
-  <div class="results-count" id="results-count">Loading Pokemon...</div>
+  <div id="results-count" class="results-count">Loading Pokemon data...</div>
 
-  <!-- Pokemon Table -->
-  <div class="table-wrapper">
-    <table id="compendium-table">
+  <main class="table-wrapper">
+    <table>
       <thead>
         <tr>
           <th>#</th>
-		  <th>Sprite</th>
+          <th>Sprite</th>
           <th>Name</th>
           <th>Type</th>
           <th>BST</th>
@@ -167,12 +164,11 @@
       </thead>
       <tbody id="pokemon-rows"></tbody>
     </table>
-  </div>
+  </main>
 
-  <!-- Detail Modal -->
   <div id="modal-overlay" class="modal-overlay hidden" onclick="closeModal(event)">
-    <div class="modal-card">
-      <button class="modal-close" onclick="closeModal(event)">&times;</button>
+    <div class="modal-card" onclick="event.stopPropagation()">
+      <button type="button" class="modal-close" onclick="closeModal()">&times;</button>
       <h2 id="modal-title"></h2>
       <div id="modal-content"></div>
     </div>

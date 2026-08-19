@@ -75,7 +75,6 @@ header .subtitle {
   border-color: #3b82f6;
 }
 
-/* Checkbox Styling */
 .checkbox-group {
   justify-content: flex-end;
   margin-bottom: 4px;
@@ -98,7 +97,6 @@ header .subtitle {
   height: 16px;
 }
 
-/* Button Group (Search & Reset) */
 .button-group {
   display: flex;
   gap: 8px;
@@ -239,7 +237,7 @@ tbody tr:hover {
 }
 
 /* ==========================================================================
-   Stat Boxes Layout (Option 2)
+   Stat Boxes Layout
    ========================================================================== */
 .stat-grid {
   display: flex;
@@ -256,18 +254,18 @@ tbody tr:hover {
   font-size: 11px;
   display: flex;
   align-items: center;
-  gap: 5px; /* Creates clean space between letters and numbers */
+  gap: 5px;
   white-space: nowrap;
 }
 
 .stat-lbl {
-  color: #93c5fd; /* Soft blue for stat name */
+  color: #93c5fd;
   font-weight: 700;
   letter-spacing: 0.5px;
 }
 
 .stat-val {
-  color: #f3f4f6; /* Bright white for number */
+  color: #f3f4f6;
   font-weight: 600;
 }
 
@@ -288,9 +286,9 @@ tbody tr:hover {
 }
 
 .highlight-line {
-  background-color: rgba(37, 99, 235, 0.1);
-  border-left: 2px solid #3b82f6;
-  padding: 2px 8px;
+  background-color: rgba(37, 99, 235, 0.15);
+  border-left: 3px solid #3b82f6;
+  padding: 3px 8px;
   margin: 4px 0;
   border-radius: 0 4px 4px 0;
 }
@@ -455,7 +453,7 @@ tbody tr:hover {
 }
 
 /* ==========================================================================
-   Pure Black / Midnight Theme Override
+   Pure Black Theme Override
    ========================================================================== */
 body.pure-black {
   background-color: #000000;
@@ -504,4 +502,140 @@ body.pure-black .modal-card {
 body.pure-black .flag-badge {
   background-color: #0d0d0d;
   border-color: #222222;
+}
+
+/* ==========================================================================
+   Mobile-Only Responsive Layout
+   ========================================================================== */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .filter-container {
+    padding: 12px;
+    gap: 8px;
+  }
+
+  .filter-group {
+    width: 100%;
+  }
+
+  .filter-group input[type="text"],
+  .filter-group select {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .button-group {
+    width: 100%;
+    margin-top: 6px;
+  }
+
+  .button-group button {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .table-wrapper {
+    border: none;
+    background: transparent;
+  }
+
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead tr {
+    display: none;
+  }
+
+  tbody tr {
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    border-radius: 8px;
+    margin-bottom: 14px;
+    padding: 12px;
+  }
+
+  body.pure-black tbody tr {
+    background-color: #0a0a0a;
+    border-color: #1f1f1f;
+  }
+
+  td {
+    padding: 4px 0 !important;
+    border-bottom: none !important;
+    text-align: left;
+  }
+
+  .col-id {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #9ca3af;
+    margin-right: 6px;
+    width: auto;
+  }
+
+  .col-sprite {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    min-width: auto;
+  }
+
+  .col-sprite .pokemon-sprite {
+    width: 48px;
+    height: 48px;
+  }
+
+  .col-name {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+  }
+
+  .col-type {
+    margin: 6px 0;
+  }
+
+  .col-bst {
+    text-align: left;
+    margin-bottom: 6px;
+    color: #9ca3af;
+  }
+
+  .col-bst strong {
+    color: #f3f4f6;
+  }
+
+  .stat-grid {
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 8px;
+  }
+
+  .stat-cell {
+    padding: 2px 5px;
+    font-size: 10px;
+  }
+
+  .col-details {
+    margin-top: 8px;
+    border-top: 1px solid #374151;
+    padding-top: 8px !important;
+    font-size: 12px;
+  }
+
+  body.pure-black .col-details {
+    border-top-color: #1f1f1f;
+  }
+
+  .modal-card {
+    padding: 18px;
+    width: 95%;
+    max-height: 85vh;
+    overflow-y: auto;
+  }
 }

@@ -51,8 +51,7 @@ const MOVE_FLAGS_DICT = {
   'p': 'spread move'
 };
 
-
-// Initialize Application
+// Application Initialization
 async function init() {
   try {
     const [pokeRes, movesRes, abilRes] = await Promise.all([
@@ -75,14 +74,14 @@ async function init() {
   }
 }
 
-// Format 3+ digit padded number (e.g., 1 -> "001", 25 -> "025", 1093 -> "1093")
+// Format 3+ digit padded number (1 -> 001, 25 -> 025, 1093 -> 1093)
 function formatSpriteId(idNum) {
   const parsed = parseInt(idNum, 10);
   if (isNaN(parsed)) return idNum;
   return parsed < 1000 ? String(parsed).padStart(3, '0') : String(parsed);
 }
 
-// Helper to construct exact front sprite filename
+// Build exact front sprite filename
 function getSpriteUrl(pkmn) {
   const rawId = pkmn.BaseDexNumber || String(pkmn.id || '').split('.')[0];
   const paddedId = formatSpriteId(rawId);
@@ -92,7 +91,30 @@ function getSpriteUrl(pkmn) {
   return `./spritefo/${paddedId}${formSuffix}.png`;
 }
 
-// Helpers for stats and parsing
+// Centralized location finder (checks both window helper and direct object)
+function getPokemonLocationData(pkmn) {
+  if (typeof getExtraData === 'function') {
+    const res = getExtraData(pkmn);
+    if (res) return res;
+  }
+  if (typeof pokemonExtraData !== 'undefined') {
+    const internalKey = (pkmn.InternalName || '').toUpperCase();
+    if (pokemonExtraData[internalKey]) return pokemonExtraData[internalKey];
+
+    const formNum = pkmn.FormNumber ? `_${pkmn.FormNumber}` : '';
+    if (formNum && pokemonExtraData[`${internalKey}${formNum}`]) {
+      return pokemonExtraData[`${internalKey}${formNum}`];
+    }
+
+    const nameKey = (pkmn.Name || '').toUpperCase();
+    if (pokemonExtraData[nameKey]) return pokemonExtraData[nameKey];
+
+    const idKey = String(pkmn.id || '');
+    if (pokemonExtraData[idKey]) return pokemonExtraData[idKey];
+  }
+  return null;
+}
+
 function getStatArray(baseStatsStr) {
   if (!baseStatsStr) return [0, 0, 0, 0, 0, 0];
   return baseStatsStr.split(',').map(s => parseInt(s.trim(), 10) || 0);
@@ -122,7 +144,6 @@ function calculateDefensiveMatchups(t1, t2) {
   return matchups;
 }
 
-// Format Move Tag with conditional color-coding
 function formatMoveTag(moveId, extraLabel = '') {
   const move = movesMap[moveId];
   const moveType = move && move.Type ? move.Type.toUpperCase() : '';
@@ -134,7 +155,7 @@ function formatMoveTag(moveId, extraLabel = '') {
   return `<span class="interactive-tag ${typeClass}" onclick="openMoveModal('${moveId}')">${label}</span>`;
 }
 
-// Main Table Renderer
+// Table Rendering
 function renderTable(list) {
   const tbody = document.getElementById('pokemon-rows');
   tbody.innerHTML = '';
@@ -151,16 +172,16 @@ function renderTable(list) {
 
     const statsFormatted = `
       <div class="stat-grid">
-        <div class="stat-cell"><span class="stat-lbl">HP</span><span class="stat-val">${stats[0]}</span></div>
-        <div class="stat-cell"><span class="stat-lbl">ATK</span><span class="stat-val">${stats[1]}</span></div>
-        <div class="stat-cell"><span class="stat-lbl">DEF</span><span class="stat-val">${stats[2]}</span></div>
-        <div class="stat-cell"><span class="stat-lbl">SPA</span><span class="stat-val">${stats[4]}</span></div>
-        <div class="stat-cell"><span class="stat-lbl">SPD</span><span class="stat-val">${stats[5]}</span></div>
-        <div class="stat-cell"><span class="stat-lbl">SPE</span><span class="stat-val">${stats[3]}</span></div>
+        <div class="stat-cell"><span class="stat-lbl">HP</span> <span class="stat-val">${stats[0]}</span></div>
+        <div class="stat-cell"><span class="stat-lbl">ATK</span> <span class="stat-val">${stats[1]}</span></div>
+        <div class="stat-cell"><span class="stat-lbl">DEF</span> <span class="stat-val">${stats[2]}</span></div>
+        <div class="stat-cell"><span class="stat-lbl">SPA</span> <span class="stat-val">${stats[4]}</span></div>
+        <div class="stat-cell"><span class="stat-lbl">SPD</span> <span class="stat-val">${stats[5]}</span></div>
+        <div class="stat-cell"><span class="stat-lbl">SPE</span> <span class="stat-val">${stats[3]}</span></div>
       </div>
     `;
 
-    // Format Abilities
+    // Abilities
     let abilitiesFormatted = '';
     if (pkmn.Abilities) {
       const abs = pkmn.Abilities.split(',').map(a => a.trim()).filter(Boolean);
@@ -172,7 +193,7 @@ function renderTable(list) {
       abilitiesFormatted = abilitiesFormatted ? `${abilitiesFormatted} | ${haSpan}` : haSpan;
     }
 
-    // Format Evolutions
+    // Evolutions
     let evolutionsFormatted = '';
     if (pkmn.Evolutions) {
       const evoParts = pkmn.Evolutions.split(',').map(e => e.trim()).filter(Boolean);
@@ -213,18 +234,16 @@ function renderTable(list) {
     const tutorMoves = pkmn.TutorMoves || [];
     let tutorMovesFormatted = tutorMoves.map(m => formatMoveTag(m));
 
-    // Extra Data (Encounters / Locations)
+    // Extra Data (Encounters / Location)
     let extraFormatted = '';
-    if (typeof getExtraData === 'function') {
-      const extra = getExtraData(pkmn);
-      if (extra && (extra.location || extra.available)) {
-        extraFormatted = `
-          <div class="detail-line highlight-line">
-            ${extra.location ? `<strong>Location:</strong> ${extra.location}` : ''}
-            ${extra.available ? `<span style="margin-left: 12px;"><strong>Available from:</strong> <span class="badge" style="background:#4b5563;">${extra.available}</span></span>` : ''}
-          </div>
-        `;
-      }
+    const extra = getPokemonLocationData(pkmn);
+    if (extra && (extra.location || extra.available)) {
+      extraFormatted = `
+        <div class="detail-line highlight-line">
+          ${extra.location ? `<strong>Location:</strong> ${extra.location}` : ''}
+          ${extra.available ? `<span style="margin-left: 12px;"><strong>Available from:</strong> <span class="badge" style="background:#4b5563;">${extra.available}</span></span>` : ''}
+        </div>
+      `;
     }
 
     const displayId = pkmn.BaseDexNumber ? `${pkmn.BaseDexNumber}` : `${pkmn.id}`;
@@ -298,13 +317,17 @@ function applyFiltersAndSort() {
 
     const eggMatch = !eggQuery || (pkmn.Compatibility && pkmn.Compatibility.toLowerCase().includes(eggQuery));
 
+    // Location / Episode filter check
     let locMatch = true;
-    if (locQuery && typeof getExtraData === 'function') {
-      const extra = getExtraData(pkmn);
-      locMatch = !!(extra && (
-        (extra.location && extra.location.toLowerCase().includes(locQuery)) ||
-        (extra.available && extra.available.toLowerCase().includes(locQuery))
-      ));
+    if (locQuery) {
+      const extra = getPokemonLocationData(pkmn);
+      if (extra) {
+        const loc = (extra.location || '').toLowerCase();
+        const ep = (extra.available || '').toLowerCase();
+        locMatch = loc.includes(locQuery) || ep.includes(locQuery);
+      } else {
+        locMatch = false;
+      }
     }
     
     // Level / Egg move filter
@@ -365,14 +388,32 @@ function applyFiltersAndSort() {
   renderTable(filtered);
 }
 
-// Setup Event Listeners
+// Event Listeners
 function setupFilterListeners() {
   const searchBtn = document.getElementById('search-btn');
   const resetBtn = document.getElementById('reset-btn');
-// Black theme toggle
+
+  if (searchBtn) {
+    searchBtn.addEventListener('click', applyFiltersAndSort);
+  }
+
+  // Trigger search on Enter inside text inputs
+  const textInputs = document.querySelectorAll('.filter-container input[type="text"]');
+  textInputs.forEach(input => {
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        applyFiltersAndSort();
+      }
+    });
+  });
+
+  // Re-sort / Re-color instantly on change
+  document.getElementById('sort-by').addEventListener('change', applyFiltersAndSort);
+  document.getElementById('color-moves-toggle').addEventListener('change', applyFiltersAndSort);
+
+  // Black Theme Handler
   const darkToggle = document.getElementById('dark-mode-toggle');
   if (darkToggle) {
-    // Load saved setting
     if (localStorage.getItem('theme_black') === 'true') {
       darkToggle.checked = true;
       document.body.classList.add('pure-black');
@@ -388,24 +429,6 @@ function setupFilterListeners() {
       }
     });
   }
-  // Trigger search on button click
-  if (searchBtn) {
-    searchBtn.addEventListener('click', applyFiltersAndSort);
-  }
-
-  // Trigger search on 'Enter' key inside inputs
-  const textInputs = document.querySelectorAll('.filter-container input[type="text"]');
-  textInputs.forEach(input => {
-    input.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') {
-        applyFiltersAndSort();
-      }
-    });
-  });
-
-  // Sort and color moves re-render immediately
-  document.getElementById('sort-by').addEventListener('change', applyFiltersAndSort);
-  document.getElementById('color-moves-toggle').addEventListener('change', applyFiltersAndSort);
 
   // Reset button
   if (resetBtn) {
@@ -519,5 +542,4 @@ function closeModal(event) {
   }
 }
 
-// Start application on DOM readiness
 document.addEventListener('DOMContentLoaded', init);

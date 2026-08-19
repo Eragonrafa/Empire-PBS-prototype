@@ -1,4 +1,4 @@
-// extra data by pokemon InternalName from the PBS/pokemon.txt
+
 var pokemonExtraData = {
     "GLAMEOW" : {
 		"location" : "Polaris Point, Serenity Springs",
@@ -3528,4 +3528,52 @@ var pokemonExtraData = {
 		"location" : "Evolve Farfetch'd",
 		"available" : "Ep10"
 	}
+}
+
+// Pre-build a normalized lookup map for 100% case-insensitive matching
+let _normalizedExtraDataMap = null;
+
+function buildNormalizedExtraDataMap() {
+  if (typeof pokemonExtraData === 'undefined') return null;
+  const map = {};
+  
+  for (const key in pokemonExtraData) {
+    if (Object.prototype.hasOwnProperty.call(pokemonExtraData, key)) {
+      // Normalize key: remove spaces/symbols, convert to lowercase
+      // e.g. "Tapu Koko", "TAPU_KOKO", "tapukoko" all become "tapukoko"
+      const cleanKey = key.toLowerCase().replace(/[^a-z0-9]/g, '');
+      map[cleanKey] = pokemonExtraData[key];
+    }
+  }
+  return map;
+}
+
+function getExtraData(pkmn) {
+  if (typeof pokemonExtraData === 'undefined') return null;
+  if (!_normalizedExtraDataMap) {
+    _normalizedExtraDataMap = buildNormalizedExtraDataMap();
+  }
+  if (!_normalizedExtraDataMap) return null;
+
+  const internalName = (pkmn.InternalName || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const displayName = (pkmn.Name || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const idStr = String(pkmn.id || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  const formNum = pkmn.FormNumber ? String(pkmn.FormNumber) : '';
+
+  // 1. Try form matches (e.g. "deoxys1", "meowstic1")
+  if (formNum) {
+    if (_normalizedExtraDataMap[`${internalName}${formNum}`]) return _normalizedExtraDataMap[`${internalName}${formNum}`];
+    if (_normalizedExtraDataMap[`${displayName}${formNum}`]) return _normalizedExtraDataMap[`${displayName}${formNum}`];
+  }
+
+  // 2. Try internal name (e.g. "bulbasaur", "glameow", "deerlingwin")
+  if (_normalizedExtraDataMap[internalName]) return _normalizedExtraDataMap[internalName];
+
+  // 3. Try display name (e.g. "bulbasaur", "mr mime", "flabébé")
+  if (_normalizedExtraDataMap[displayName]) return _normalizedExtraDataMap[displayName];
+
+  // 4. Try ID number (e.g. "1", "001")
+  if (_normalizedExtraDataMap[idStr]) return _normalizedExtraDataMap[idStr];
+
+  return null;
 }
