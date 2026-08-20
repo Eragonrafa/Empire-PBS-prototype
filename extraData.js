@@ -1,6 +1,6 @@
 
 var pokemonExtraData = {
-    "GLAMEOW" : {
+    "OSCILLOT" : {
 		"location" : "Polaris Point, Serenity Springs",
 		"available" : "Ep1"
 	},
@@ -217,7 +217,7 @@ var pokemonExtraData = {
 		"available" : "Ep1"
 	},
     "Geodude" : {
-		"location" : "Polaris Mountain 1F, Polaris Mountain 2F, Polaris Mine West, Polaris Mine, Polaris Mine 2F, Telurite Mines",
+		"location" : "Polaris Mountain 1F, Polaris Mountain 2F, Polaris Mine West, Polaris Mine, Polaris Mine 2F, Telurite Mines, Flegetont Fissure 3F",
 		"available" : "Ep1"
 	},
     "ADiglett" : {
@@ -281,7 +281,7 @@ var pokemonExtraData = {
 		"available" : "Ep1"
 	},
     "Deino" : {
-		"location" : "Egg left on the ground after you beat Isaiah at Polaris Mountain Entrance (post Royale Bishop)",
+		"location" : "Egg left on the ground after you beat Isaiah at Polaris Mountain Entrance (post Royale Bishop), OriGen Emporium in Flegetont Gap",
 		"available" : "Ep1"
 	},
     "Gothita" : {
@@ -349,7 +349,7 @@ var pokemonExtraData = {
 		"available" : "Ep1"
 	},
     "Dreepy" : {
-		"location" : "Pay $15,000 for the RPG in the Yo'ak weapons shop",
+		"location" : "Pay $15,000 for the RPG in the Yo'ak weapons shop, Flegetont Fissure 3F",
 		"available" : "Ep1"
 	},
     "Orthwyrm" : {
@@ -489,7 +489,7 @@ var pokemonExtraData = {
 		"available" : "Ep2"
 	},
     "APPLIN" : {
-		"location" : "Apple bobbing in Calvera Cove (pre-Eberhart), Within the Dragonair Devorer, order take out from the person at the front desk, then get the random Pokemon (1 out of 3 chance)",
+		"location" : "Apple bobbing in Calvera Cove (pre-Eberhart), Within the Dragonair Devorer, order take out from the person at the front desk, then get the random Pokemon (1 out of 3 chance), Flegetont Gap",
 		"available" : "Ep2"
 	},
     "PARAS" : {
@@ -505,7 +505,7 @@ var pokemonExtraData = {
 		"available" : "Ep2"
 	},
     "Feebas" : {
-		"location" : "Lake Calvera pre-Eberhart (Fishing), Crimson Forest pre-Eberhart (Fishing), Crimson Forest North pre-Eberhart (Fishing), Cathedral Ward (Fishing)",
+		"location" : "Lake Calvera pre-Eberhart (Fishing), Crimson Forest pre-Eberhart (Fishing), Crimson Forest North pre-Eberhart (Fishing), Cathedral Ward (Fishing), Flegetont Gap (Fishing), Flegetont Ridge (Fishing)",
 		"available" : "Ep2"
 	},
     "Horsea" : {
@@ -513,7 +513,7 @@ var pokemonExtraData = {
 		"available" : "Ep2"
 	},
     "Magikarp" : {
-		"location" : "Calvera Cove pre-Eberhart (Fishing), Crimson Forest North pre-Eberhart (Fishing), Lake Calvera pre-Eberhart (Fishing), Brandumah Beach (Fishing)",
+		"location" : "Calvera Cove pre-Eberhart (Fishing), Crimson Forest North pre-Eberhart (Fishing), Lake Calvera pre-Eberhart (Fishing), Brandumah Beach (Fishing), Path of Lament (fishing), Eridanis Field (fishing)",
 		"available" : "Ep2"
 	},
     "Barboach" : {
@@ -624,12 +624,12 @@ var pokemonExtraData = {
 		"location" : "Calvera Cove pre-Eberhart (Night)",
 		"available" : "Ep2"
 	},
-    "Electrike" : {
-		"location" : "Crimson Forest, Old Illyria",
+    "COILIGER" : {
+		"location" : "Crimson Forest, Old Illyria, Flegetont Fissure, Hawthorn Telurite Plant",
 		"available" : "Ep2"
 	},
     "Wattrel" : {
-		"location" : "Defeat or bargain with the Royale Rook before completing the logbook event",
+		"location" : "Defeat or bargain with the Royale Rook before completing the logbook event, Flegetont Ridge",
 		"available" : "Ep2"
 	},
     "Kilowattrel" : {
@@ -637,7 +637,7 @@ var pokemonExtraData = {
 		"available" : "Ep2"
 	},
     "Pancham" : {
-		"location" : "Crimson Forest North, Calvera Cave pre-Eberhart, Lake Calvera pre-Eberhart",
+		"location" : "Crimson Forest North, Calvera Cave pre-Eberhart, Lake Calvera pre-Eberhart, Flegetont Ridge",
 		"available" : "Ep2"
 	},
     "Farfetchd" : {
@@ -697,7 +697,7 @@ var pokemonExtraData = {
 		"available" : "Ep2"
 	},
     "ROCKRUFF" : {
-		"location" : "Atria",
+		"location" : "Atria, Flegetont Mesa",
 		"available" : "Ep3"
 	},
     "LYCANROCSUN" : {
@@ -705,7 +705,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "YAMPER" : {
-		"location" : "Atria",
+		"location" : "Atria, Path of Lament",
 		"available" : "Ep3"
 	},
     "FUEDOUGH" : {
@@ -745,7 +745,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "GOSSIFLEUR" : {
-		"location" : "Noble Fields",
+		"location" : "Noble Fields, Path of Lament",
 		"available" : "Ep3"
 	},
     "EDELGOSS" : {
@@ -765,7 +765,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "TAILLOW" : {
-		"location" : "Al’Sharazar event if 15 tasks completed and chose starter A-Sandshrew",
+		"location" : "Al’Sharazar event if 15 tasks completed and chose starter A-Sandshrew, Contra Verses after doing all Cultural Diffusion interactions",
 		"available" : "Ep3"
 	},
     "SWELLOW" : {
@@ -845,7 +845,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "SIZZLIPEDE" : {
-		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Baltoy",
+		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Baltoy, Contra Verses after doing all Cultural Diffusion interactions",
 		"available" : "Ep3"
 	},
     "CENTISKORCH" : {
@@ -921,7 +921,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "FOONGUS" : {
-		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Vullaby",
+		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Vullaby, Contra Verses after doing all Cultural Diffusion interactions",
 		"available" : "Ep3"
 	},
     "AMOONGUSS" : {
@@ -961,7 +961,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Clauncher" : {
-		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Golett",
+		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Golett, Contra Verses after doing all Cultural Diffusion interactions",
 		"available" : "Ep3"
 	},
     "Dewgong" : {
@@ -1041,7 +1041,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Avulpix" : {
-		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Clobbopus, Polaris Mouth",
+		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Clobbopus, Contra Verses after doing all Cultural Diffusion interactions, Polaris Mouth, Flegetont Gap trade (Helped Rose ep2)",
 		"available" : "Ep3"
 	},
     "Vanillish" : {
@@ -1073,23 +1073,23 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Blitzle" : {
-		"location" : "Noble Fields",
+		"location" : "Noble Fields, Path of Lament",
 		"available" : "Ep3"
 	},
     "Dedenne" : {
 		"location" : "Windmill Stantler Venison event (choice event), Teltepe",
 		"available" : "Ep3"
 	},
-    "Manectric" : {
-		"location" : "Evolve Electrike",
-		"available" : "Ep3"
+    "TESLIGER" : {
+		"location" : "Evolve Coiliger, Eyrie Spiral",
+		"available" : "Ep4"
 	},
     "Togedemaru" : {
 		"location" : "Windmill Stantler Venison event (choice event), Rastaban Lowlands",
 		"available" : "Ep3"
 	},
     "Helioptile" : {
-		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Litleo, Rastaban Highlands (Day)",
+		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Litleo, Contra Verses after doing all Cultural Diffusion interactions, Rastaban Highlands (Day)",
 		"available" : "Ep3"
 	},
     "Heliolisk" : {
@@ -1125,7 +1125,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Ingast" : {
-		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Skrelp",
+		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Skrelp, Contra Verses after doing all Cultural Diffusion interactions",
 		"available" : "Ep3"
 	},
     "Rhydon" : {
@@ -1137,7 +1137,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Larvitar" : {
-		"location" : "Run-Away Event in Noble Fields",
+		"location" : "Run-Away Event in Noble Fields, Flegetont Fissure 1F",
 		"available" : "Ep3"
 	},
     "Pupitar" : {
@@ -1153,7 +1153,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Chewtle" : {
-		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Cottonee",
+		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Cottonee, Contra Verses after doing all Cultural Diffusion interactions",
 		"available" : "Ep3"
 	},
     "Mawile" : {
@@ -1213,7 +1213,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Meditite" : {
-		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Joltik",
+		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Joltik, Contra Verses after doing all Cultural Diffusion interactions",
 		"available" : "Ep3"
 	},
     "Primeape" : {
@@ -1249,7 +1249,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Bagon" : {
-		"location" : "Found jumping off of various high buildings/structures around Illyria. Find 5 times to get",
+		"location" : "Found jumping off of various high buildings/structures around Illyria (find 5 times to get), Flegetont Gap",
 		"available" : "Ep3"
 	},
     "Shelgon" : {
@@ -1257,7 +1257,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "GREAVARD" : {
-		"location" : "Gravestone Quest",
+		"location" : "Gravestone Quest, Eridanis Field",
 		"available" : "Ep3"
 	},
     "CAPSAKID" : {
@@ -1300,8 +1300,8 @@ var pokemonExtraData = {
 		"location" : "Evolve Porygon, Algol Arena's Sp.Atk Room",
 		"available" : "Ep4"
 	},
-    "PURUGLY" : {
-		"location" : "Evolve Glameow",
+    "JAGWIRE" : {
+		"location" : "Evolve Oscillot",
 		"available" : "Ep4"
 	},
     "PIDGEOT" : {
@@ -1373,7 +1373,7 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "ROLYCOLY" : {
-		"location" : "Molten Core Event",
+		"location" : "Molten Core Event, Flegetont Fissure 2F, Flegetont Fissure 3F",
 		"available" : "Ep4"
 	},
     "CARKOL" : {
@@ -1597,7 +1597,7 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "Klink" : {
-		"location" : "Power Plant Roof, Generator Room",
+		"location" : "Power Plant Roof, Generator Room, Flegetont Fissure 3F",
 		"available" : "Ep4"
 	},
     "Klang" : {
@@ -1685,7 +1685,7 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "Natu" : {
-		"location" : "Serenity Springs",
+		"location" : "Serenity Springs, Flegetont Gap",
 		"available" : "Ep4"
 	},
     "Xatu" : {
@@ -1721,7 +1721,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "MEOWTH" : {
-		"location" : "Imperial Sector",
+		"location" : "Imperial Sector, Flegetont Gap",
 		"available" : "Ep5"
 	},
     "PERSIAN" : {
@@ -1805,11 +1805,11 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Citrusaur" : {
-		"location" : "Primordial Pike",
+		"location" : "Primordial Pike, Mesa Verde (interact)",
 		"available" : "Ep5"
 	},
     "Exeggcute" : {
-		"location" : "Within the Dragonair Devorer, order take out from the person at the front desk, then get the random Pokemon (1 out of 3 chance)",
+		"location" : "Within the Dragonair Devorer, order take out from the person at the front desk, then get the random Pokemon (1 out of 3 chance), Eridanis Field, Verde Kitchen",
 		"available" : "Ep5"
 	},
     "Lileep" : {
@@ -1853,19 +1853,19 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Ducklett" : {
-		"location" : "Avant Garden (Fishing)",
+		"location" : "Avant Garden (Fishing), Flegetont Ridge (fishing)",
 		"available" : "Ep5"
 	},
-    "Shellos" : {
-		"location" : "Primordial Pike (Fishing)",
+    "DIVALVE" : {
+		"location" : "Primordial Pike (Fishing), Forgotten Fen, Moriah Morass",
 		"available" : "Ep5"
 	},
     "Tentacool" : {
-		"location" : "Wild Menace Gatr Nation event in Primordial Pike",
+		"location" : "Wild Menace Gatr Nation event in Primordial Pike, Flegetont Gap (Fishing)",
 		"available" : "Ep5"
 	},
     "Sinistea" : {
-		"location" : "Purchase for 4K in the Dragonair Devorer",
+		"location" : "Purchase for 4K in the Dragonair Devorer, Verde Kitchen",
 		"available" : "Ep5"
 	},
     "Omanyte" : {
@@ -1896,8 +1896,8 @@ var pokemonExtraData = {
 		"location" : "Evolve Tentacool, Algol Arena's Sp.Def Room",
 		"available" : "Ep5"
 	},
-    "Gastrodon" : {
-		"location" : "Evolve Shellos",
+    "HELMUSSEL" : {
+		"location" : "Evolve Divalve, Pollux Depths",
 		"available" : "Ep5"
 	},
     "Swanna" : {
@@ -1985,7 +1985,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Gible" : {
-		"location" : "Finale of Poaching quest within Primordial Pike",
+		"location" : "Finale of Poaching quest within Primordial Pike, Flegetont Fissure 2F",
 		"available" : "Ep5"
 	},
     "Gabite" : {
@@ -2021,7 +2021,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Dratini" : {
-		"location" : "Complete Ariella’s performance at the Dragonair Devorer",
+		"location" : "Complete Ariella’s performance at the Dragonair Devorer, Flegetont Ridge (interact)",
 		"available" : "Ep5"
 	},
     "Dragonair" : {
@@ -2037,7 +2037,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Scraggy" : {
-		"location" : "Kings' Alley, Lost Alley, Suicide Alley, Station Alley",
+		"location" : "Kings' Alley, Lost Alley, Suicide Alley, Station Alley, Flegetont Gap (trade for Ducklet)",
 		"available" : "Ep5"
 	},
     "Kubfu" : {
@@ -2085,7 +2085,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "SMOLIV" : {
-		"location" : "Imperial Sector - Trade Event",
+		"location" : "Imperial Sector - Trade Event, Verde Kitchen",
 		"available" : "Ep5"
 	},
     "DOLLIV" : {
@@ -2113,7 +2113,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "AIPOM" : {
-		"location" : "Deep Crimson Forest",
+		"location" : "Deep Crimson Forest, Flegetont Mesa",
 		"available" : "Ep6"
 	},
     "AMBIPOM" : {
@@ -2141,7 +2141,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "VULPIX" : {
-		"location" : "Complete the Ninetales puzzle in the 2nd floor of Antares Academy",
+		"location" : "Complete the Ninetales puzzle in the 2nd floor of Antares Academy, Flegetont Gap trade (Helped North ep2)",
 		"available" : "Ep6"
 	},
     "NINETALES" : {
@@ -2153,7 +2153,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Bellossom" : {
-		"location" : "Evolve Gloom",
+		"location" : "Scimenco Salon's after a groom, Crimson Forest",
 		"available" : "Ep6"
 	},
     "Meganium" : {
@@ -2169,11 +2169,11 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Maractus" : {
-		"location" : "Primordial Steppe",
-		"available" : "Ep6"
+		"location" : "Lunatone Lounge, Primordial Steppe",
+		"available" : "Ep4"
 	},
     "Cacnea" : {
-		"location" : "Primordial Steppe",
+		"location" : "Primordial Steppe, Flegetont Gap (interact), Flegetont Mesa (interact), Flegetont Fissure (interact)",
 		"available" : "Ep6"
 	},
     "Cacturne" : {
@@ -2217,7 +2217,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Spheal" : {
-		"location" : "Polaris Mine 6F (fishing)",
+		"location" : "Polaris Mine 6F (fishing), Flegetont Gap (interact), Flegetont Mesa (interact), Flegetont Ridge (interact)",
 		"available" : "Ep6"
 	},
     "Sealeo" : {
@@ -2373,7 +2373,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Magnemite" : {
-		"location" : "Sylas event within one of the houses of the Cultural District",
+		"location" : "Sylas event within one of the houses of the Cultural District, Hawthorn Telurite Plant",
 		"available" : "Ep6"
 	},
     "Morpeko" : {
@@ -2385,7 +2385,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Sandygast" : {
-		"location" : "Brandumah Beach",
+		"location" : "Brandumah Beach, Path of Lament (fishing)",
 		"available" : "Ep6"
 	},
     "Palossand" : {
@@ -2393,7 +2393,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Silicobra" : {
-		"location" : "Primordial Steppe",
+		"location" : "Primordial Steppe, Flegetont Mesa",
 		"available" : "Ep6"
 	},
     "Sandaconda" : {
@@ -2421,7 +2421,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Claycotta" : {
-		"location" : "Antares Academy",
+		"location" : "Antares Academy, Flegetont Mesa (buy in shop)",
 		"available" : "Ep6"
 	},
     "Claymord" : {
@@ -2461,7 +2461,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Koffing" : {
-		"location" : "Talk to the lady at Brandumah Beach twice, once after talking to her husband nearby",
+		"location" : "Talk to the lady at Brandumah Beach twice, once after talking to her husband nearby, Hawthorn Telurite Plant",
 		"available" : "Ep6"
 	},
     "Weezing" : {
@@ -2533,7 +2533,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "NYMBLE" : {
-		"location" : "Crimson Forest North post-Eberhart",
+		"location" : "Crimson Forest North post-Eberhart, Flegetont Ridge",
 		"available" : "Ep6"
 	},
     "LOKIX" : {
@@ -2729,7 +2729,7 @@ var pokemonExtraData = {
 		"available" : "Ep7"
 	},
     "Roggenrola" : {
-		"location" : "Breed Boldore",
+		"location" : "Breed Boldore, Flegetont Fissure 1F",
 		"available" : "Ep7"
 	},
     "Boldore" : {
@@ -2849,7 +2849,7 @@ var pokemonExtraData = {
 		"available" : "Ep8"
 	},
     "Salandit" : {
-		"location" : "Breed Salazzle",
+		"location" : "Breed Salazzle, Flegetont Mesa",
 		"available" : "Ep8"
 	},
     "Tepig" : {
@@ -2949,7 +2949,7 @@ var pokemonExtraData = {
 		"available" : "Ep8"
 	},
     "Hippopotas" : {
-		"location" : "Breed Hippowdon",
+		"location" : "Breed Hippowdon, Mesa Verde (Complete Merch quest)",
 		"available" : "Ep8"
 	},
     "Krookodile" : {
@@ -3001,7 +3001,7 @@ var pokemonExtraData = {
 		"available" : "Ep8"
 	},
     "BRAMBLIN" : {
-		"location" : "Rastaban Highlands, The Glasslands",
+		"location" : "Rastaban Highlands, The Glasslands, Path of Lament",
 		"available" : "Ep8"
 	},
     "BRAMBLEGHAST" : {
@@ -3048,6 +3048,10 @@ var pokemonExtraData = {
 		"location" : "Evolve Rockruff",
 		"available" : "Ep9"
 	},
+	"CHARCADET" : {
+		"location" : "Complete Detective's/Thief's Guild quest in ep 9, Flegetont Gap (interact), Flegetont Mesa (interact), Flegetont Ridge (interact), Flegetont Fissure (interact)",
+		"available" : "Ep9"
+	},
     "CHANDELURE" : {
 		"location" : "Evolve Lampent",
 		"available" : "Ep9"
@@ -3081,7 +3085,7 @@ var pokemonExtraData = {
 		"available" : "Ep9"
 	},
     "Shroomish" : {
-		"location" : "Breed Breloom",
+		"location" : "Breed Breloom, Flegetont Fissure 1F",
 		"available" : "Ep9"
 	},
     "MISMAGIUS" : {
@@ -3164,8 +3168,28 @@ var pokemonExtraData = {
 		"location" : "Evolve Yanma",
 		"available" : "Ep9"
 	},
+	"ZUBAT" : {
+		"location" : "Imperial Passage, Flegetont Fissure 2F",
+		"available" : "Ep9"
+	},
+	"GOLBAT" : {
+		"location" : "Evolve Zubat",
+		"available" : "Ep9"
+	},
+	"CROBAT" : {
+		"location" : "Evolve Crobat",
+		"available" : "Ep9"
+	},
+	"CERULEDGE" : {
+		"location" : "Evolve Charcadet",
+		"available" : "Ep10"
+	},
+	"ARMAROUGE" : {
+		"location" : "Evolve Charcadet",
+		"available" : "Ep10"
+	},
     "VAROOM" : {
-		"location" : "Breed Revavroom",
+		"location" : "Breed Revavroom, Path of Lament",
 		"available" : "Ep10"
 	},
     "REVAVROOM" : {
@@ -3205,7 +3229,7 @@ var pokemonExtraData = {
 		"available" : "Ep9"
 	},
     "MIENFOO" : {
-		"location" : "Shipping Manifesto Quest",
+		"location" : "Shipping Manifesto Quest, Flegetont Ridge (Vapor quest)",
 		"available" : "Ep9"
 	},
     "MIENSHAO" : {
@@ -3393,7 +3417,7 @@ var pokemonExtraData = {
 		"available" : "Ep10"
 	},
     "TAROUNTULA" : {
-		"location" : "Breed Spidops",
+		"location" : "Breed Spidops, Flegetont Ridge",
 		"available" : "Ep10"
 	},
     "SPIDOPS" : {
@@ -3527,9 +3551,104 @@ var pokemonExtraData = {
     "SIRFETCHD" : {
 		"location" : "Evolve Farfetch'd",
 		"available" : "Ep10"
-	}
+	},
+	"SNUBULL" : {
+		"location" : "Flegetont Gap",
+		"available" : "Ep11"
+	},
+	"FRIGIBAX" : {
+		"location" : "Flegetont Gap (trade)",
+		"available" : "Ep11"
+	},
+	"VENIPEDE" : {
+		"location" : "Flegetont Mesa",
+		"available" : "Ep11"
+	},
+	"WHIRLIPEDE" : {
+		"location" : "Evolve Venipede",
+		"available" : "Ep11"
+	},
+	"CHERUBI" : {
+		"location" : "Flegetont Ridge, Verde Kitchen",
+		"available" : "Ep11"
+	},
+	"CHERRIM" : {
+		"location" : "Evolve Cherubi",
+		"available" : "Ep11"
+	},
+	"AXEW" : {
+		"location" : "Flegetont Ridge (interact)",
+		"available" : "Ep11"
+	},
+	"ROOKIDEE" : {
+		"location" : "Flegetont Ridge (interact)",
+		"available" : "Ep11"
+	},
+	"CORVISQUIRE" : {
+		"location" : "Evolve Rookidee",
+		"available" : "Ep11"
+	},
+	"TINKATINK" : {
+		"location" : "Flegetont Ridge (trade)",
+		"available" : "Ep11"
+	},
+	"AVATERRA" : {
+		"location" : "Episode 11 Secret Quest Reward (Hint: Chests)",
+		"available" : "Ep11"
+	},
+	"GROWLITHE" : {
+		"location" : "Puppy Store if joined Merch guild or both guilds",
+		"available" : "Ep11"
+	},
+	"HGROWLITHE" : {
+		"location" : "Puppy Store if joined Vapor guild or both guilds",
+		"available" : "Ep11"
+	},
+	"CHIMCHAR" : {
+		"location" : "Path of Lament (trade)",
+		"available" : "Ep11"
+	},
+	"MONFERNO" : {
+		"location" : "Evolve Chimchar",
+		"available" : "Ep11"
+	},
+	"SCARAGLOB" : {
+		"location" : "Path of Lament (interact), Eridanis Field",
+		"available" : "Ep11"
+	},
+	"SWINUB" : {
+		"location" : "Flegetont Fissure 2F",
+		"available" : "Ep11"
+	},
+	"CLEFFA" : {
+		"location" : "Eridanis Field",
+		"available" : "Ep11"
+	},
+	"CLEFAIRY" : {
+		"location" : "Evolve Cleffa",
+		"available" : "Ep11"
+	},
+	"SHELLDER" : {
+		"location" : "Eridanis Field (fishing), Verde Kitchen",
+		"available" : "Ep11"
+	},
+	"BLIPBUG" : {
+		"location" : "Hawthorn Telurite Plant",
+		"available" : "Ep11"
+	},
+	"DOTTLER" : {
+		"location" : "Evolve Blipbug",
+		"available" : "Ep11"
+	},
+	"ABRA" : {
+		"location" : "Hawthorn Telurite Plant (interact)",
+		"available" : "Ep11"
+	},
+	"GASTLY" : {
+		"location" : "Verde Kitchen (trade)",
+		"available" : "Ep11"
+	},
 }
-
 // Pre-build a normalized lookup map for 100% case-insensitive matching
 let _normalizedExtraDataMap = null;
 
