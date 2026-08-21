@@ -81,7 +81,7 @@ var pokemonExtraData = {
 		"available" : "Ep1"
 	},
     "PANSEAR" : {
-		"location" : "Choice between 3 monkeyís within Dancing Deerling Tavern in Polaris Point, Primordial Pike Overworld",
+		"location" : "Choice between 3 monkey‚Äôs within Dancing Deerling Tavern in Polaris Point, Primordial Pike Overworld",
 		"available" : "Ep1"
 	},
     "SLUGMA" : {
@@ -105,7 +105,7 @@ var pokemonExtraData = {
 		"available" : "Ep1"
 	},
     "PANSAGE" : {
-		"location" : "Choice between 3 monkeyís within Dancing Deerling Tavern in Polaris Point, Primordial Pike Overworld",
+		"location" : "Choice between 3 monkey‚Äôs within Dancing Deerling Tavern in Polaris Point, Primordial Pike Overworld",
 		"available" : "Ep1"
 	},
     "SEEDOT" : {
@@ -149,7 +149,7 @@ var pokemonExtraData = {
 		"available" : "Ep1"
 	},
     "Panpour" : {
-		"location" : "Choice between 3 monkeyís within Dancing Deerling Tavern in Polaris Point, Primordial Pike Overworld",
+		"location" : "Choice between 3 monkey‚Äôs within Dancing Deerling Tavern in Polaris Point, Primordial Pike Overworld",
 		"available" : "Ep1"
 	},
     "Clobbopus" : {
@@ -305,7 +305,7 @@ var pokemonExtraData = {
 		"available" : "Ep1"
 	},
     "Jangmoo" : {
-		"location" : "Near the Jangmo-o gang once theyíre defeated in Polaris Cave",
+		"location" : "Near the Jangmo-o gang once they‚Äôre defeated in Polaris Cave",
 		"available" : "Ep1"
 	},
     "Hoothoot" : {
@@ -765,7 +765,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "TAILLOW" : {
-		"location" : "AlíSharazar event if 15 tasks completed and chose starter A-Sandshrew, Contra Verses after doing all Cultural Diffusion interactions",
+		"location" : "Al‚ÄôSharazar event if 15 tasks completed and chose starter A-Sandshrew, Contra Verses after doing all Cultural Diffusion interactions",
 		"available" : "Ep3"
 	},
     "SWELLOW" : {
@@ -845,7 +845,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "SIZZLIPEDE" : {
-		"location" : "AlíSharazar event if 15 tasks completed and chose starter Baltoy, Contra Verses after doing all Cultural Diffusion interactions",
+		"location" : "Al‚ÄôSharazar event if 15 tasks completed and chose starter Baltoy, Contra Verses after doing all Cultural Diffusion interactions",
 		"available" : "Ep3"
 	},
     "CENTISKORCH" : {
@@ -921,7 +921,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "FOONGUS" : {
-		"location" : "AlíSharazar event if 15 tasks completed and chose starter Vullaby, Contra Verses after doing all Cultural Diffusion interactions",
+		"location" : "Al‚ÄôSharazar event if 15 tasks completed and chose starter Vullaby, Contra Verses after doing all Cultural Diffusion interactions",
 		"available" : "Ep3"
 	},
     "AMOONGUSS" : {
@@ -961,7 +961,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Clauncher" : {
-		"location" : "AlíSharazar event if 15 tasks completed and chose starter Golett, Contra Verses after doing all Cultural Diffusion interactions",
+		"location" : "Al‚ÄôSharazar event if 15 tasks completed and chose starter Golett, Contra Verses after doing all Cultural Diffusion interactions",
 		"available" : "Ep3"
 	},
     "Dewgong" : {
@@ -1041,7 +1041,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Avulpix" : {
-		"location" : "AlíSharazar event if 15 tasks completed and chose starter Clobbopus, Contra Verses after doing all Cultural Diffusion interactions, Polaris Mouth, Flegetont Gap trade (Helped Rose ep2)",
+		"location" : "Al‚ÄôSharazar event if 15 tasks completed and chose starter Clobbopus, Contra Verses after doing all Cultural Diffusion interactions, Polaris Mouth, Flegetont Gap trade (Helped Rose ep2)",
 		"available" : "Ep3"
 	},
     "Vanillish" : {
@@ -1089,7 +1089,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Helioptile" : {
-		"location" : "AlíSharazar event if 15 tasks completed and chose starter Litleo, Contra Verses after doing all Cultural Diffusion interactions, Rastaban Highlands (Day), Moriah Morass",
+		"location" : "Al‚ÄôSharazar event if 15 tasks completed and chose starter Litleo, Contra Verses after doing all Cultural Diffusion interactions, Rastaban Highlands (Day), Moriah Morass",
 		"available" : "Ep3"
 	},
     "Heliolisk" : {
@@ -1125,7 +1125,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Ingast" : {
-		"location" : "AlíSharazar event if 15 tasks completed and chose starter Skrelp, Contra Verses after doing all Cultural Diffusion interactions, Moriah Morass",
+		"location" : "Al‚ÄôSharazar event if 15 tasks completed and chose starter Skrelp, Contra Verses after doing all Cultural Diffusion interactions, Moriah Morass",
 		"available" : "Ep3"
 	},
     "Rhydon" : {
@@ -1153,7 +1153,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Chewtle" : {
-		"location" : "AlíSharazar event if 15 tasks completed and chose starter Cottonee, Contra Verses after doing all Cultural Diffusion interactions",
+		"location" : "Al‚ÄôSharazar event if 15 tasks completed and chose starter Cottonee, Contra Verses after doing all Cultural Diffusion interactions",
 		"available" : "Ep3"
 	},
     "Mawile" : {
@@ -1213,7 +1213,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Meditite" : {
-		"location" : "AlíSharazar event if 15 tasks completed and chose starter Joltik, Contra Verses after doing all Cultural Diffusion interactions",
+		"location" : "Al‚ÄôSharazar event if 15 tasks completed and chose starter Joltik, Contra Verses after doing all Cultural Diffusion interactions",
 		"available" : "Ep3"
 	},
     "Primeape" : {
@@ -1221,7 +1221,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Makuhita" : {
-		"location" : "Get from trading your starter in to the boy within the Verdant Veldt, canít be done after breeding (same level as traded mon)",
+		"location" : "Get from trading your starter in to the boy within the Verdant Veldt, can‚Äôt be done after breeding (same level as traded mon)",
 		"available" : "Ep3"
 	},
     "Hariyama" : {
@@ -1237,7 +1237,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Misdreavus" : {
-		"location" : "Illyria event, need to find ìRoseî 5 times around the settlements, Ruined Estate",
+		"location" : "Illyria event, need to find ‚ÄúRose‚Äù 5 times around the settlements, Ruined Estate",
 		"available" : "Ep3"
 	},
     "NACLSTACK" : {
@@ -1773,7 +1773,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "TORKOAL" : {
-		"location" : "Trade for a female Dunsparce in one of Starlightís apartments, Polaris Mine 9F",
+		"location" : "Trade for a female Dunsparce in one of Starlight‚Äôs apartments, Polaris Mine 9F",
 		"available" : "Ep5"
 	},
     "TORRACAT" : {
@@ -1873,11 +1873,11 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Kabuto" : {
-		"location" : "Get the fossil from the gal in Avant Gardenís for 5 Retcoins (based on variable; if Serpents Relationship	is 2 or higher), Nebolan's Neck North (fishing), Moriah Morass (Fishing), Primordial Pike (mart)",
+		"location" : "Get the fossil from the gal in Avant Garden‚Äôs for 5 Retcoins (based on variable; if Serpents Relationship	is 2 or higher), Nebolan's Neck North (fishing), Moriah Morass (Fishing), Primordial Pike (mart)",
 		"available" : "Ep5"
 	},
     "Tirtouga" : {
-		"location" : "Get the fossil from the gal in Avant Gardenís for 5 Retcoins (based on variable; if Serpents Relationship	is -2 or lower), Primordial Pike (mart)",
+		"location" : "Get the fossil from the gal in Avant Garden‚Äôs for 5 Retcoins (based on variable; if Serpents Relationship	is -2 or lower), Primordial Pike (mart)",
 		"available" : "Ep5"
 	},
     "Carracosta" : {
@@ -1917,7 +1917,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Anorith" : {
-		"location" : "Get the fossil from the gal in Avant Gardenís for 5 Retcoins (based on variable; if Serpents Relationship	is -1 to 1), Moriah Marsh, Moriah Marsh South, Primordial Pike (mart)",
+		"location" : "Get the fossil from the gal in Avant Garden‚Äôs for 5 Retcoins (based on variable; if Serpents Relationship	is -1 to 1), Moriah Marsh, Moriah Marsh South, Primordial Pike (mart)",
 		"available" : "Ep5"
 	},
     "Armaldo" : {
@@ -1941,7 +1941,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Sneasel" : {
-		"location" : "Once getting the Old Artifact, go back to Polaris and talk to the guild-member blocking the path to the left of the Explorerís Guild, Whoever you help fight with against the other in Crimson Foothills (choice event)",
+		"location" : "Once getting the Old Artifact, go back to Polaris and talk to the guild-member blocking the path to the left of the Explorer‚Äôs Guild, Whoever you help fight with against the other in Crimson Foothills (choice event)",
 		"available" : "Ep5"
 	},
     "Stoutland" : {
@@ -2021,7 +2021,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Dratini" : {
-		"location" : "Complete Ariellaís performance at the Dragonair Devorer, Flegetont Ridge (interact)",
+		"location" : "Complete Ariella‚Äôs performance at the Dragonair Devorer, Flegetont Ridge (interact)",
 		"available" : "Ep5"
 	},
     "Dragonair" : {
@@ -2265,7 +2265,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Octillery" : {
-		"location" : "Interact with the Ice Cream machine near the beach in the Cultural District after defeating North in Antares Academy. Choose the ëwhatís thisí option, Primordial Resort, Undermarsh",
+		"location" : "Interact with the Ice Cream machine near the beach in the Cultural District after defeating North in Antares Academy. Choose the ‚Äòwhat‚Äôs this‚Äô option, Primordial Resort, Undermarsh",
 		"available" : "Ep6"
 	},
     "Relicanth" : {
@@ -2277,7 +2277,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Dewott" : {
-		"location" : "Trade for A. Marowak within one of the Culture District housesí second floor",
+		"location" : "Trade for A. Marowak within one of the Culture District houses‚Äô second floor",
 		"available" : "Ep6"
 	},
     "Samurott" : {
@@ -2789,7 +2789,7 @@ var pokemonExtraData = {
 		"available" : "Ep7"
 	},
     "Sepulchrest" : {
-		"location" : "Reward for completing the puzzle in the Lusitanianís Art Gallery 2F, Eltanin Glen",
+		"location" : "Reward for completing the puzzle in the Lusitanian‚Äôs Art Gallery 2F, Eltanin Glen",
 		"available" : "Ep7"
 	},
     "Alphanonymus" : {
@@ -2897,7 +2897,7 @@ var pokemonExtraData = {
 		"available" : "Ep8"
 	},
     "Araquanid" : {
-		"location" : "Complete the 4th Rastaban Run perfectly in the lower left corner of Rastabanís Lowlands, Castor Depths, Castor Cavity",
+		"location" : "Complete the 4th Rastaban Run perfectly in the lower left corner of Rastaban‚Äôs Lowlands, Castor Depths, Castor Cavity",
 		"available" : "Ep8"
 	},
     "Dhelmise" : {
@@ -2921,7 +2921,7 @@ var pokemonExtraData = {
 		"available" : "Ep8"
 	},
     "Shinx" : {
-		"location" : "Be an asshole on the Shinx sidequest and donít give him back his Pokemon",
+		"location" : "Be an asshole on the Shinx sidequest and don‚Äôt give him back his Pokemon",
 		"available" : "Ep8"
 	},
     "Luxio" : {
@@ -2969,7 +2969,7 @@ var pokemonExtraData = {
 		"available" : "Ep8"
 	},
     "Klefki" : {
-		"location" : "Complete the Cult of the Sunís sidequest in the Rastaban Lowlands",
+		"location" : "Complete the Cult of the Sun‚Äôs sidequest in the Rastaban Lowlands",
 		"available" : "Ep8"
 	},
     "Phalinks" : {
@@ -4064,6 +4064,10 @@ var pokemonExtraData = {
 		"location" : "Evolve Carbink",
 		"available" : "Ep13"
 	},
+	"NECROZMA" : {
+		"location" : "Evolve Cosmoem",
+		"available" : "Ep13"
+	},
 	"DEOXYS-1" : {
 		"location" : "",
 		"available" : ""
@@ -4116,7 +4120,7 @@ function getExtraData(pkmn) {
   // 2. Try internal name (e.g. "bulbasaur", "glameow", "deerlingwin")
   if (_normalizedExtraDataMap[internalName]) return _normalizedExtraDataMap[internalName];
 
-  // 3. Try display name (e.g. "bulbasaur", "mr mime", "flabÈbÈ")
+  // 3. Try display name (e.g. "bulbasaur", "mr mime", "flab√©b√©")
   if (_normalizedExtraDataMap[displayName]) return _normalizedExtraDataMap[displayName];
 
   // 4. Try ID number (e.g. "1", "001")
