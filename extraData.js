@@ -61,7 +61,7 @@ var pokemonExtraData = {
 		"available" : "Ep1"
 	},
     "FERROCKET" : {
-		"location" : "Evolve Sentret, Polaris Slopes, Algol Arena's Speed Room",
+		"location" : "Evolve Sentret, Polaris Slopes, Algol Arena's Speed Room, Polaris Mine 9F (interact)",
 		"available" : "Ep1"
 	},
     "PIDGEOTTO" : {
@@ -229,7 +229,7 @@ var pokemonExtraData = {
 		"available" : "Ep1"
 	},
     "Rhyhorn" : {
-		"location" : "Polaris Mountain Entrance, Polaris Mountain 1F, Scarlet Station pre-Eberhart, Polaris Mine 3F",
+		"location" : "Polaris Mountain Entrance, Polaris Mountain 1F, Scarlet Station pre-Eberhart, Polaris Mine 3F, Omega Church (burn book)",
 		"available" : "Ep1"
 	},
     "Muskoat" : {
@@ -249,7 +249,7 @@ var pokemonExtraData = {
 		"available" : "Ep1"
 	},
     "Meltan" : {
-		"location" : "Talk to the miner at the desk in Polaris Mine after obtaining an Orichasses",
+		"location" : "Talk to the miner at the desk in Polaris Mine after obtaining an Orichasses, Stripped District (Fishing)",
 		"available" : "Ep1"
 	},
     "Gulpin" : {
@@ -269,7 +269,7 @@ var pokemonExtraData = {
 		"available" : "Ep1"
 	},
     "Impugil" : {
-		"location" : "Episode 1 Secret Quest Reward (Hint: Data files)",
+		"location" : "Episode 1 Secret Quest Reward (Hint: Data files), OriGen 4F in Eltanin (destroyed Impugil in ep 1)",
 		"available" : "Ep1"
 	},
     "Swoobat" : {
@@ -441,7 +441,7 @@ var pokemonExtraData = {
 		"available" : "Ep2"
 	},
     "SHROODLE" : {
-		"location" : "Static Encounter Crimson Forest (Village)",
+		"location" : "Static Encounter Crimson Forest (Village), Forgotten Fen (cave)",
 		"available" : "Ep2"
 	},
     "FLETCHINDER" : {
@@ -505,7 +505,7 @@ var pokemonExtraData = {
 		"available" : "Ep2"
 	},
     "Feebas" : {
-		"location" : "Lake Calvera pre-Eberhart (Fishing), Crimson Forest pre-Eberhart (Fishing), Crimson Forest North pre-Eberhart (Fishing), Cathedral Ward (Fishing), Flegetont Gap (Fishing), Flegetont Ridge (Fishing)",
+		"location" : "Lake Calvera pre-Eberhart (Fishing), Crimson Forest pre-Eberhart (Fishing), Crimson Forest North pre-Eberhart (Fishing), Cathedral Ward (Fishing), Flegetont Gap (Fishing), Flegetont Ridge (Fishing), Lake Polux (Fishing)",
 		"available" : "Ep2"
 	},
     "Horsea" : {
@@ -513,7 +513,7 @@ var pokemonExtraData = {
 		"available" : "Ep2"
 	},
     "Magikarp" : {
-		"location" : "Calvera Cove pre-Eberhart (Fishing), Crimson Forest North pre-Eberhart (Fishing), Lake Calvera pre-Eberhart (Fishing), Brandumah Beach (Fishing), Path of Lament (fishing), Eridanis Field (fishing)",
+		"location" : "Calvera Cove pre-Eberhart (Fishing), Crimson Forest North pre-Eberhart (Fishing), Lake Calvera pre-Eberhart (Fishing), Brandumah Beach (Fishing), Path of Lament (fishing), Eridanis Field (fishing), Moriah (Fishing)",
 		"available" : "Ep2"
 	},
     "Barboach" : {
@@ -525,11 +525,11 @@ var pokemonExtraData = {
 		"available" : "Ep2"
 	},
     "Seaking" : {
-		"location" : "Evolve Goldeen, Cultural District 2 (Fishing), Algol Arena's Attack Room",
+		"location" : "Evolve Goldeen, Cultural District 2 (Fishing), Algol Arena's Attack Room, Castor Depths",
 		"available" : "Ep2"
 	},
     "Lumineon" : {
-		"location" : "Cultural District (Fishing)",
+		"location" : "Cultural District (Fishing), Castor Cavity",
 		"available" : "Ep2"
 	},
     "Tadbulb" : {
@@ -605,7 +605,7 @@ var pokemonExtraData = {
 		"available" : "Ep2"
 	},
     "Carbink" : {
-		"location" : "Event in Polaris Mine 2F",
+		"location" : "Event in Polaris Mine 2F, Mairenor Stairs",
 		"available" : "Ep2"
 	},
     "Nosepass" : {
@@ -693,7 +693,7 @@ var pokemonExtraData = {
 		"available" : "Ep2"
 	},
     "Crawstitch" : {
-		"location" : "Evolve Knitterbug, Algol Arena's Defense Room",
+		"location" : "Evolve Knitterbug, Algol Arena's Defense Room, Forgotten Ossuary, Polaris Hollow",
 		"available" : "Ep2"
 	},
     "ROCKRUFF" : {
@@ -725,7 +725,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "BUNEARY" : {
-		"location" : "Atria",
+		"location" : "Atria, Nebolan's Neck (Middle)",
 		"available" : "Ep3"
 	},
     "LOPUNNY" : {
@@ -909,7 +909,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "CORSOLA" : {
-		"location" : "Verdant Veldt (Fishing), Primordial Resort",
+		"location" : "Verdant Veldt (Fishing), Primordial Resort, Castor Depths",
 		"available" : "Ep3"
 	},
     "SKIDDO" : {
@@ -929,7 +929,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "SNIVY" : {
-		"location" : "Located in the Wheat Maze in the far right of Ignoble Fields",
+		"location" : "Located in the Wheat Maze in the far right of Ignoble Fields, Eltanin Kennels (trade)",
 		"available" : "Ep3"
 	},
     "SERVINE" : {
@@ -973,7 +973,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Whiscash" : {
-		"location" : "Loading Docks (Fishing), Crimson Foothills (Fishing)",
+		"location" : "Loading Docks (Fishing), Crimson Foothills (Fishing), Pollux Depths",
 		"available" : "Ep3"
 	},
     "Volbeat" : {
@@ -1049,7 +1049,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Smoochum" : {
-		"location" : "Trade at the Explorer Guild for Sunflora",
+		"location" : "Trade at the Explorer Guild for Sunflora, Omega Church (burn book)",
 		"available" : "Ep3"
 	},
     "Jynx" : {
@@ -1089,7 +1089,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Helioptile" : {
-		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Litleo, Contra Verses after doing all Cultural Diffusion interactions, Rastaban Highlands (Day)",
+		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Litleo, Contra Verses after doing all Cultural Diffusion interactions, Rastaban Highlands (Day), Moriah Morass",
 		"available" : "Ep3"
 	},
     "Heliolisk" : {
@@ -1125,7 +1125,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Ingast" : {
-		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Skrelp, Contra Verses after doing all Cultural Diffusion interactions",
+		"location" : "Al’Sharazar event if 15 tasks completed and chose starter Skrelp, Contra Verses after doing all Cultural Diffusion interactions, Moriah Morass",
 		"available" : "Ep3"
 	},
     "Rhydon" : {
@@ -1181,7 +1181,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Stunky" : {
-		"location" : "Atria",
+		"location" : "Atria, Moriah Morass",
 		"available" : "Ep3"
 	},
     "Poochyena" : {
@@ -1205,11 +1205,11 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "Malamar" : {
-		"location" : "Evolve Inkay, Calvera Cove post-Eberhart",
+		"location" : "Evolve Inkay, Calvera Cove post-Eberhart, Castor Cavity",
 		"available" : "Ep3"
 	},
     "Croagunk" : {
-		"location" : "Noble Fields (Fishing)",
+		"location" : "Noble Fields (Fishing), Nebolan's Neck (south), Forgotten Fen",
 		"available" : "Ep3"
 	},
     "Meditite" : {
@@ -1293,7 +1293,7 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "PORYGON" : {
-		"location" : "Generator Room Other",
+		"location" : "Generator Room Other, Moriah (pc virus)",
 		"available" : "Ep4"
 	},
     "PORYGON2" : {
@@ -1317,15 +1317,15 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "Lillipup" : {
-		"location" : "Breed Herdier",
+		"location" : "Breed Herdier, Moriah",
 		"available" : "Ep4"
 	},
     "HERDIER" : {
-		"location" : "Polaris Mine 5F, Polaris Mine 6F",
+		"location" : "Polaris Mine 5F, Polaris Mine 6F, Moriah",
 		"available" : "Ep4"
 	},
     "MAGBY" : {
-		"location" : "Molten Core",
+		"location" : "Molten Core, Omega Church (burn book)",
 		"available" : "Ep4"
 	},
     "MAGMAR" : {
@@ -1333,7 +1333,7 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "HOUNDOUR" : {
-		"location" : "Molten Core",
+		"location" : "Molten Core, Moriah Morass",
 		"available" : "Ep4"
 	},
     "HOUNDOOM" : {
@@ -1341,11 +1341,11 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "SOLROCK" : {
-		"location" : "Molten Core, Impyramids",
+		"location" : "Molten Core, Impyramids, Polaris Mine 9F (interact)",
 		"available" : "Ep4"
 	},
     "HEATMOR" : {
-		"location" : "Molten Core, Polaris Mine 8F",
+		"location" : "Molten Core, Polaris Mine 8F, Polaris Mine 9F",
 		"available" : "Ep4"
 	},
     "ORICORIO" : {
@@ -1397,7 +1397,7 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "Morelull" : {
-		"location" : "Calvera Underground",
+		"location" : "Calvera Underground, Nebolan's Neck (south), Forgotten Fen",
 		"available" : "Ep4"
 	},
     "Shiinotic" : {
@@ -1437,11 +1437,11 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "Mantyke" : {
-		"location" : "Serenity Springs (Fishing)",
+		"location" : "Serenity Springs (Fishing), Moriah Marsh (Fishing), Moriah Marsh North, Moriah Marsh South",
 		"available" : "Ep4"
 	},
     "Mantine" : {
-		"location" : "Evolve Mantyke",
+		"location" : "Evolve Mantyke, Castor Depths",
 		"available" : "Ep4"
 	},
     "Qwilfish" : {
@@ -1449,7 +1449,7 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "Phione" : {
-		"location" : "Episode 4 Secret Quest Reward (Hint: Drampa)",
+		"location" : "Episode 4 Secret Quest Reward (Hint: Drampa), The Gash (Fishing)",
 		"available" : "Ep4"
 	},
     "Totodile" : {
@@ -1469,7 +1469,7 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "Lanturn" : {
-		"location" : "Evolve Chinchou",
+		"location" : "Evolve Chinchou, Pollux Depths",
 		"available" : "Ep4"
 	},
     "Grapploct" : {
@@ -1509,7 +1509,7 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "Crustle" : {
-		"location" : "Scarlet Station post-Eberhart",
+		"location" : "Scarlet Station post-Eberhart, Castor Depths",
 		"available" : "Ep4"
 	},
     "Snom" : {
@@ -1549,7 +1549,7 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "Electabuzz" : {
-		"location" : "Evolve Elekid, Vulcan Foundry",
+		"location" : "Evolve Elekid, Vulcan Foundry, Omega Church (burn book)",
 		"available" : "Ep4"
 	},
     "Rotom" : {
@@ -1693,7 +1693,7 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "Muk" : {
-		"location" : "Evolve Grimer",
+		"location" : "Evolve Grimer, Stripped District (Fishing)",
 		"available" : "Ep4"
 	},
     "Dragalge" : {
@@ -1701,7 +1701,7 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "Garbodor" : {
-		"location" : "Evolve Trubbish, Antares Academy, Industrial District (Fishing)",
+		"location" : "Evolve Trubbish, Antares Academy, Industrial District (Fishing), The Conquorse, Elta's Deep",
 		"available" : "Ep4"
 	},
     "Dusclops" : {
@@ -1729,11 +1729,11 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "PIKIPEK" : {
-		"location" : "Primordial Pike (Day)",
+		"location" : "Primordial Pike (Day), Moriah Marsh North",
 		"available" : "Ep5"
 	},
     "TRUMBEAK" : {
-		"location" : "Primordial Pike",
+		"location" : "Primordial Pike, Moriah Marsh, Moriah Marsh North",
 		"available" : "Ep5"
 	},
     "GIRAFARIG" : {
@@ -1741,11 +1741,11 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "KOMALA" : {
-		"location" : "Primordial Pike",
+		"location" : "Primordial Pike, Gladeholm",
 		"available" : "Ep5"
 	},
     "CRANIDOS" : {
-		"location" : "Solve the right-most machine puzzle in the SCCL in Starlight Administrative District (based on variable; if  Zain variable is 0 or above)",
+		"location" : "Solve the right-most machine puzzle in the SCCL in Starlight Administrative District (based on variable; if  Zain variable is 0 or above), Primordial Pike (mart)",
 		"available" : "Ep5"
 	},
     "RAMPARDOS" : {
@@ -1769,11 +1769,11 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "LITTEN" : {
-		"location" : "Win against Shirley in the Fight Club",
+		"location" : "Win against Shirley in the Fight Club, Eltanin Kennels (trade)",
 		"available" : "Ep5"
 	},
     "TORKOAL" : {
-		"location" : "Trade for a female Dunsparce in one of Starlight’s apartments",
+		"location" : "Trade for a female Dunsparce in one of Starlight’s apartments, Polaris Mine 9F",
 		"available" : "Ep5"
 	},
     "TORRACAT" : {
@@ -1801,7 +1801,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Carnivine" : {
-		"location" : "Primordial Pike",
+		"location" : "Primordial Pike, Gladeholm",
 		"available" : "Ep5"
 	},
     "Citrusaur" : {
@@ -1813,7 +1813,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Lileep" : {
-		"location" : "SCCL fossil mon given by Dr. Lowry (based on variable; if Toliman Test variable is 4 or greater)",
+		"location" : "SCCL fossil mon given by Dr. Lowry (based on variable; if Toliman Test variable is 4 or greater), Primordial Pike (mart)",
 		"available" : "Ep5"
 	},
     "Oranguru" : {
@@ -1837,7 +1837,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Abomasnow" : {
-		"location" : "Polaris Highlands",
+		"location" : "Polaris Highlands, Polaris Hollow",
 		"available" : "Ep5"
 	},
     "Velocicle" : {
@@ -1857,7 +1857,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "DIVALVE" : {
-		"location" : "Primordial Pike (Fishing), Forgotten Fen, Moriah Morass",
+		"location" : "Primordial Pike (Fishing), Forgotten Fen, Moriah Morass, Moriah Morass (Fishing), Forgotten Fen (Fishing)",
 		"available" : "Ep5"
 	},
     "Tentacool" : {
@@ -1869,15 +1869,15 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Omanyte" : {
-		"location" : "SCCL fossil mon given by Dr. Lowry (based on variable; if Toliman Test variable is 1-3)",
+		"location" : "SCCL fossil mon given by Dr. Lowry (based on variable; if Toliman Test variable is 1-3), Primordial Pike (mart)",
 		"available" : "Ep5"
 	},
     "Kabuto" : {
-		"location" : "Get the fossil from the gal in Avant Garden’s for 5 Retcoins (based on variable; if Serpents Relationship	is 2 or higher)",
+		"location" : "Get the fossil from the gal in Avant Garden’s for 5 Retcoins (based on variable; if Serpents Relationship	is 2 or higher), Nebolan's Neck North (fishing), Moriah Morass (Fishing), Primordial Pike (mart)",
 		"available" : "Ep5"
 	},
     "Tirtouga" : {
-		"location" : "Get the fossil from the gal in Avant Garden’s for 5 Retcoins (based on variable; if Serpents Relationship	is -2 or lower)",
+		"location" : "Get the fossil from the gal in Avant Garden’s for 5 Retcoins (based on variable; if Serpents Relationship	is -2 or lower), Primordial Pike (mart)",
 		"available" : "Ep5"
 	},
     "Carracosta" : {
@@ -1897,7 +1897,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "HELMUSSEL" : {
-		"location" : "Evolve Divalve, Pollux Depths",
+		"location" : "Evolve Divalve, Pollux Depths, Pollux Depths",
 		"available" : "Ep5"
 	},
     "Swanna" : {
@@ -1909,15 +1909,15 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Scarecroach" : {
-		"location" : "Owners vs. Union in Illyria (choice event)",
+		"location" : "Owners vs. Union in Illyria (choice event), The Conquorse, Elta's Deep",
 		"available" : "Ep5"
 	},
     "Mosqewer" : {
-		"location" : "Owners vs. Union in Illyria (choice event)",
+		"location" : "Owners vs. Union in Illyria (choice event), Eltanin Glen",
 		"available" : "Ep5"
 	},
     "Anorith" : {
-		"location" : "Get the fossil from the gal in Avant Garden’s for 5 Retcoins (based on variable; if Serpents Relationship	is -1 to 1)",
+		"location" : "Get the fossil from the gal in Avant Garden’s for 5 Retcoins (based on variable; if Serpents Relationship	is -1 to 1), Moriah Marsh, Moriah Marsh South, Primordial Pike (mart)",
 		"available" : "Ep5"
 	},
     "Armaldo" : {
@@ -1957,7 +1957,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Stunfisk" : {
-		"location" : "Kings' Alley, Lost Alley",
+		"location" : "Kings' Alley, Lost Alley, Castor Cavity",
 		"available" : "Ep5"
 	},
     "Nickit" : {
@@ -1993,11 +1993,11 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "Shieldon" : {
-		"location" : "SCCL fossil mon given by Dr. Lowry (based on variable; if Toliman Test variable is 0 or less)",
+		"location" : "SCCL fossil mon given by Dr. Lowry (based on variable; if Toliman Test variable is 0 or less), Primordial Pike (mart)",
 		"available" : "Ep5"
 	},
     "Archen" : {
-		"location" : "Solve the right-most machine puzzle in the SCCL (based on variable; if  Zain variable is -1 or below)",
+		"location" : "Solve the right-most machine puzzle in the SCCL (based on variable; if  Zain variable is -1 or below), Primordial Pike (mart)",
 		"available" : "Ep5"
 	},
     "Archeops" : {
@@ -2093,7 +2093,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "FLITTLE" : {
-		"location" : "Imperial Sector",
+		"location" : "Imperial Sector, Gladeholm",
 		"available" : "Ep5"
 	},
     "ESPATHRA" : {
@@ -2101,7 +2101,7 @@ var pokemonExtraData = {
 		"available" : "Ep5"
 	},
     "KANGASKHAN" : {
-		"location" : "Polaris Mine 6F",
+		"location" : "Polaris Mine 6F, Eltanin Valley",
 		"available" : "Ep6"
 	},
     "MAUSHOLD" : {
@@ -2125,7 +2125,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "KECLEON" : {
-		"location" : "In the post-modern Pokemon Center, catch Kecleon about the room 5 times, then interact with the Pokeball",
+		"location" : "In the post-modern Pokemon Center, catch Kecleon about the room 5 times, then interact with the Pokeball, Eltanin Valley",
 		"available" : "Ep6"
 	},
     "GRITAGONIST" : {
@@ -2161,7 +2161,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Pumpkaboo" : {
-		"location" : "Old Illyria Ruined Estate",
+		"location" : "Old Illyria Ruined Estate, Moriah Morass (interact)",
 		"available" : "Ep6"
 	},
     "Gourgeist" : {
@@ -2173,7 +2173,7 @@ var pokemonExtraData = {
 		"available" : "Ep4"
 	},
     "Cacnea" : {
-		"location" : "Primordial Steppe, Flegetont Gap (interact), Flegetont Mesa (interact), Flegetont Fissure (interact)",
+		"location" : "Primordial Steppe, Flegetont Gap (interact), Flegetont Mesa (interact), Flegetont Fissure (interact), Lake Polux (trade)",
 		"available" : "Ep6"
 	},
     "Cacturne" : {
@@ -2217,11 +2217,11 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Spheal" : {
-		"location" : "Polaris Mine 6F (fishing), Flegetont Gap (interact), Flegetont Mesa (interact), Flegetont Ridge (interact)",
+		"location" : "Polaris Mine 6F (fishing), Flegetont Gap (interact), Flegetont Mesa (interact), Flegetont Ridge (interact), Lake Polux (trade)",
 		"available" : "Ep6"
 	},
     "Sealeo" : {
-		"location" : "Evolve Spheal, Polaris Mine 6F (fishing)",
+		"location" : "Evolve Spheal, Polaris Mine 6F (fishing), Polaris Hollow (Fishing)",
 		"available" : "Ep6"
 	},
     "Walrein" : {
@@ -2233,7 +2233,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Jellicent" : {
-		"location" : "Evolve Frillish",
+		"location" : "Evolve Frillish, The Gash (Fishing)",
 		"available" : "Ep6"
 	},
     "Wingull" : {
@@ -2261,11 +2261,11 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Remoraid" : {
-		"location" : "Breed Octillery",
+		"location" : "Breed Octillery, Moriah Marsh (Fishing), Moriah Marsh South",
 		"available" : "Ep6"
 	},
     "Octillery" : {
-		"location" : "Interact with the Ice Cream machine near the beach in the Cultural District after defeating North in Antares Academy. Choose the ‘what’s this’ option, Primordial Resort",
+		"location" : "Interact with the Ice Cream machine near the beach in the Cultural District after defeating North in Antares Academy. Choose the ‘what’s this’ option, Primordial Resort, Undermarsh",
 		"available" : "Ep6"
 	},
     "Relicanth" : {
@@ -2273,7 +2273,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Oshawott" : {
-		"location" : "Breed Dewott",
+		"location" : "Breed Dewott, Eltanin Kennels (trade)",
 		"available" : "Ep6"
 	},
     "Dewott" : {
@@ -2305,7 +2305,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Cutiefly" : {
-		"location" : "Cultural District (Day)",
+		"location" : "Cultural District (Day), Moriah Marsh, Moriah Marsh South",
 		"available" : "Ep6"
 	},
     "Ribombee" : {
@@ -2348,14 +2348,6 @@ var pokemonExtraData = {
 		"location" : "Receptionist at Antares Academy 1F once you complete your diploma(1 in 7 chance). Completing all 12 tasks gives you the option to choose from Roland, Black Market Locker, Reward from Hester in Cathedral Ward if Visionaries Relationship > 4, Club Piplup - Trade for Solace Shroom",
 		"available" : "Ep6"
 	},
-    "Rotom-1" : {
-		"location" : "",
-		"available" : ""
-	},
-    "Rotom-2" : {
-		"location" : "",
-		"available" : ""
-	},
     "Rotom-3" : {
 		"location" : "Interact with refrigerator in Antares Domicilary",
 		"available" : "Ep6"
@@ -2369,7 +2361,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Nihilight" : {
-		"location" : "Work for the Detective’s Guild on The Heist quest in the Cultural District",
+		"location" : "Work for the Detective's Guild on The Heist quest in the Cultural District, Eltanin Kennels (trade)",
 		"available" : "Ep6"
 	},
     "Magnemite" : {
@@ -2409,11 +2401,11 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Golem" : {
-		"location" : "Evolve Graveler",
+		"location" : "Evolve Graveler, Polaris Mine 9F",
 		"available" : "Ep6"
 	},
     "Druidem" : {
-		"location" : "Work for the Thief's Guild on The Heist quest in the Cultural District",
+		"location" : "Work for the Thief's Guild on The Heist quest in the Cultural District, Eltanin Kennels (trade)",
 		"available" : "Ep6"
 	},
     "Aggron" : {
@@ -2489,7 +2481,7 @@ var pokemonExtraData = {
 		"available" : "Ep6"
 	},
     "Tyrogue" : {
-		"location" : "Antares Academy",
+		"location" : "Antares Academy, Moriah (trade)",
 		"available" : "Ep6"
 	},
     "Hitmonlee" : {
@@ -2585,7 +2577,7 @@ var pokemonExtraData = {
 		"available" : "Ep7"
 	},
     "Charmander" : {
-		"location" : "Episode 7 Secret Quest Reward (Hint: N.I.A)",
+		"location" : "Episode 7 Secret Quest Reward (Hint: N.I.A), Eltanin Kennels (trade)",
 		"available" : "Ep7"
 	},
     "Charmeleon" : {
@@ -2613,7 +2605,7 @@ var pokemonExtraData = {
 		"available" : "Ep7"
 	},
     "Bounsweet" : {
-		"location" : "Talk to the person to the right of Apollo Food Markets, give him 3K and a Lum berry",
+		"location" : "Talk to the person to the right of Apollo Food Markets, give him 3K and a Lum berry, Moriah Marsh North",
 		"available" : "Ep7"
 	},
     "Steenee" : {
@@ -2625,7 +2617,7 @@ var pokemonExtraData = {
 		"available" : "Ep7"
 	},
     "Bulbasaur" : {
-		"location" : "Episode 7 Secret Quest Reward (Hint: N.I.A)",
+		"location" : "Episode 7 Secret Quest Reward (Hint: N.I.A), Eltanin Kennels (trade)",
 		"available" : "Ep7"
 	},
     "Ivysaur" : {
@@ -2645,15 +2637,15 @@ var pokemonExtraData = {
 		"available" : "Ep7"
 	},
     "Sharpedo" : {
-		"location" : "Evolve Carvanha",
+		"location" : "Evolve Carvanha, Undermarsh",
 		"available" : "Ep7"
 	},
     "Wishiwashi" : {
-		"location" : "Loading Docks (Fishing), Industrial District (Fishing), Portstern (Fishing)",
+		"location" : "Loading Docks (Fishing), Industrial District (Fishing), Portstern (Fishing), Pollux Depths",
 		"available" : "Ep7"
 	},
     "Squirtle" : {
-		"location" : "Episode 7 Secret Quest Reward (Hint: N.I.A)",
+		"location" : "Episode 7 Secret Quest Reward (Hint: N.I.A), Eltanin Kennels (trade)",
 		"available" : "Ep7"
 	},
     "Wartortle" : {
@@ -2709,7 +2701,7 @@ var pokemonExtraData = {
 		"available" : "Ep7"
 	},
     "Amaura" : {
-		"location" : "Side with the Brotherhood of Merchants in the debate in the second floor of the Art Gallery (choice event)",
+		"location" : "Side with the Brotherhood of Merchants in the debate in the second floor of the Art Gallery (choice event), Moriah (Detective's quest), Primordial Pike (mart)",
 		"available" : "Ep7"
 	},
     "Aurorus" : {
@@ -2717,11 +2709,11 @@ var pokemonExtraData = {
 		"available" : "Ep7"
 	},
     "Frospire" : {
-		"location" : "Reward for solving the puzzle with the shapes in Polaris Origen HQ",
+		"location" : "Reward for solving the puzzle with the shapes in Polaris Origen HQ, Mairenor Stairs, Mairenor Heighs",
 		"available" : "Ep7"
 	},
     "Doduo" : {
-		"location" : "Beat the Dodrio minigame in Primordial Soup",
+		"location" : "Beat the Dodrio minigame in Primordial Soup, Nebolan's Neck (Middle)",
 		"available" : "Ep7"
 	},
     "Dodrio" : {
@@ -2745,7 +2737,7 @@ var pokemonExtraData = {
 		"available" : "Ep7"
 	},
     "Tyrunt" : {
-		"location" : "Side with the Vapors in the debate in the second floor of the Art Gallery (choice event)",
+		"location" : "Side with the Vapors in the debate in the second floor of the Art Gallery (choice event), Den of Thieves (Thief's quest), Primordial Pike (mart)",
 		"available" : "Ep7"
 	},
     "Tyrantrum" : {
@@ -2761,7 +2753,7 @@ var pokemonExtraData = {
 		"available" : "Ep7"
 	},
     "Honedge" : {
-		"location" : "Follow main storyline for 7",
+		"location" : "Follow main storyline for 7, Nebolan's Neck North (trade)",
 		"available" : "Ep7"
 	},
     "Doublade" : {
@@ -2785,7 +2777,7 @@ var pokemonExtraData = {
 		"available" : "Ep7"
 	},
     "Munna" : {
-		"location" : "Warehouse 5",
+		"location" : "Warehouse 5, Nebolan's Neck (south), Forgotten Fen",
 		"available" : "Ep7"
 	},
     "Musharna" : {
@@ -2797,7 +2789,7 @@ var pokemonExtraData = {
 		"available" : "Ep7"
 	},
     "Sepulchrest" : {
-		"location" : "Reward for completing the puzzle in the Lusitanian’s Art Gallery 2F",
+		"location" : "Reward for completing the puzzle in the Lusitanian’s Art Gallery 2F, Eltanin Glen",
 		"available" : "Ep7"
 	},
     "Alphanonymus" : {
@@ -2841,7 +2833,7 @@ var pokemonExtraData = {
 		"available" : "Ep8"
 	},
     "HZorua" : {
-		"location" : "Breed HZoroark",
+		"location" : "Breed HZoroark, Nebolan's Neck (south), Forgotten Fen, Moriah Marsh",
 		"available" : "Ep8"
 	},
     "Salazzle" : {
@@ -2897,7 +2889,7 @@ var pokemonExtraData = {
 		"available" : "Ep8"
 	},
     "Corphish" : {
-		"location" : "The Glasslands (Fishing)",
+		"location" : "The Glasslands (Fishing), Moriah Marsh, Moriah Marsh North",
 		"available" : "Ep8"
 	},
     "Crawdaunt" : {
@@ -2905,7 +2897,7 @@ var pokemonExtraData = {
 		"available" : "Ep8"
 	},
     "Araquanid" : {
-		"location" : "Complete the 4th Rastaban Run perfectly in the lower left corner of Rastaban’s Lowlands",
+		"location" : "Complete the 4th Rastaban Run perfectly in the lower left corner of Rastaban’s Lowlands, Castor Depths, Castor Cavity",
 		"available" : "Ep8"
 	},
     "Dhelmise" : {
@@ -2913,7 +2905,7 @@ var pokemonExtraData = {
 		"available" : "Ep8"
 	},
     "Dewpider" : {
-		"location" : "Breed Araquanid",
+		"location" : "Breed Araquanid, Nebolan's Neck (Fishing), Moriah Marsh North",
 		"available" : "Ep8"
 	},
     "Vibrava" : {
@@ -2957,7 +2949,7 @@ var pokemonExtraData = {
 		"available" : "Ep8"
 	},
     "Sandile" : {
-		"location" : "Breed Krookodile",
+		"location" : "Breed Krookodile, Forgotten Fen (cave)",
 		"available" : "Ep8"
 	},
     "Krokorok" : {
@@ -2993,7 +2985,7 @@ var pokemonExtraData = {
 		"available" : "Ep8"
 	},
     "Zorua" : {
-		"location" : "Find the illusions around Teltepe",
+		"location" : "Find the illusions around Teltepe, Moriah Morass, Moriah Marsh",
 		"available" : "Ep8"
 	},
     "Zoroark" : {
@@ -3009,7 +3001,7 @@ var pokemonExtraData = {
 		"available" : "Ep8"
 	},
     "Solosis" : {
-		"location" : "Trade for a Shiftry in a house in the Rabastan Lowlands",
+		"location" : "Trade for a Shiftry in a house in the Rabastan Lowlands, Moriah (Fishing), Lake Polux (Fishing)",
 		"available" : "Ep8"
 	},
     "Duosion" : {
@@ -3021,8 +3013,16 @@ var pokemonExtraData = {
 		"available" : "Ep8"
 	},
     "Calyrex" : {
-		"location" : "?????",
+		"location" : "?????, Buy from Heinrich (if player has mega ring already)",
 		"available" : "Ep8"
+	},
+	"Calyrex-1" : {
+		"location" : "",
+		"available" : ""
+	},
+	"Calyrex-2" : {
+		"location" : "",
+		"available" : ""
 	},
     "Farfarato" : {
 		"location" : "Complete the sidequest (Lux event). Starting at Cathedral Ward",
@@ -3041,7 +3041,7 @@ var pokemonExtraData = {
 		"available" : "Ep8"
 	},
     "Durant" : {
-		"location" : "Polaris Mine 8F",
+		"location" : "Polaris Mine 8F, Polaris Mine 9F",
 		"available" : "Ep8"
 	},
     "LYCANROCDUSK" : {
@@ -3049,7 +3049,15 @@ var pokemonExtraData = {
 		"available" : "Ep9"
 	},
 	"CHARCADET" : {
-		"location" : "Complete Detective's/Thief's Guild quest in ep 9, Flegetont Gap (interact), Flegetont Mesa (interact), Flegetont Ridge (interact), Flegetont Fissure (interact)",
+		"location" : "Complete Detective's/Thief's Guild quest in ep 9, Flegetont Gap (interact), Flegetont Mesa (interact), Flegetont Ridge (interact), Flegetont Fissure (interact), Lake Polux (trade)",
+		"available" : "Ep9"
+	},
+	"Rotom-1" : {
+		"location" : "Interact with Furnace in Vulcan Foundry",
+		"available" : "Ep9"
+	},
+    "Rotom-2" : {
+		"location" : "Interact with Wash Machine in Tartarus Atelier",
 		"available" : "Ep9"
 	},
     "CHANDELURE" : {
@@ -3081,7 +3089,7 @@ var pokemonExtraData = {
 		"available" : "Ep9"
 	},
     "Breloom" : {
-		"location" : "Calvera Cove post-Eberhart",
+		"location" : "Calvera Cove post-Eberhart, Eltanin Glen",
 		"available" : "Ep9"
 	},
     "Shroomish" : {
@@ -3133,7 +3141,7 @@ var pokemonExtraData = {
 		"available" : "Ep9"
 	},
     "DIGGERSBY" : {
-		"location" : "Industrial District",
+		"location" : "Industrial District, The Conquorse, Elta's Deep",
 		"available" : "Ep9"
 	},
     "BUNNELBY" : {
@@ -3145,7 +3153,7 @@ var pokemonExtraData = {
 		"available" : "Ep9"
 	},
     "VENONAT": {
-		"location" : "Breed Venomoth",
+		"location" : "Breed Venomoth, Nebolan's Neck (south), Forgotten Fen",
 		"available" : "Ep9"
 	},
     "VENOMOTH" : {
@@ -3157,11 +3165,11 @@ var pokemonExtraData = {
 		"available" : "Ep9"
 	},
     "GOLISOPOD" : {
-		"location" : "Evolve Wimpod",
+		"location" : "Evolve Wimpod, Undermarsh",
 		"available" : "Ep9"
 	},
     "YANMA" : {
-		"location" : "Primordial Resort",
+		"location" : "Primordial Resort, Eltanin Glen",
 		"available" : "Ep9"
 	},
     "YANMEGA" : {
@@ -3186,6 +3194,22 @@ var pokemonExtraData = {
 	},
 	"ARMAROUGE" : {
 		"location" : "Evolve Charcadet",
+		"available" : "Ep10"
+	},
+	"BASCULEGION" : {
+		"location" : "Evolve Basculin",
+		"available" : "Ep10"
+	},
+	"GLISCOR" : {
+		"location" : "Evolve Gligar",
+		"available" : "Ep10"
+	},
+	"WEAVILE" : {
+		"location" : "Evolve Sneasel",
+		"available" : "Ep10"
+	},
+	"DESTINEEDLE" : {
+		"location" : "Evolve Crawstitch",
 		"available" : "Ep10"
 	},
     "VAROOM" : {
@@ -3261,7 +3285,7 @@ var pokemonExtraData = {
 		"available" : "Ep9"
 	},
     "GRUNJAM" : {
-		"location" : "Porstern, The Meatloaf",
+		"location" : "Porstern, The Meatloaf, Moriah",
 		"available" : "Ep9"
 	},
     "CHARISMUSE" : {
@@ -3321,11 +3345,11 @@ var pokemonExtraData = {
 		"available" : "Ep9"
 	},
     "MOTOCYCLOPS" : {
-		"location" : "Loading Docks - Give an Ultra Ball to the Biker - Serpents Relationship < 0",
+		"location" : "Loading Docks - Give an Ultra Ball to the Biker - Serpents Relationship < 0, Eltanin Kennels (trade)",
 		"available" : "Ep9"
 	},
     "CYCLIZAR" : {
-		"location" : "Loading Docks - Give an Ultra Ball to the Biker - Serpents Relationship > -1",
+		"location" : "Loading Docks - Give an Ultra Ball to the Biker - Serpents Relationship > -1, Eltanin Kennels (trade)",
 		"available" : "Ep9"
 	},
     "SHOCKRA" : {
@@ -3333,7 +3357,7 @@ var pokemonExtraData = {
 		"available" : "Ep9"
 	},
     "GOOMY" : {
-		"location" : "Porstern - Trade Event",
+		"location" : "Porstern - Trade Event, Moriah Marsh South",
 		"available" : "Ep9"
 	},
     "SLIGGOO" : {
@@ -3345,11 +3369,11 @@ var pokemonExtraData = {
 		"available" : "Ep9"
 	},
     "AERODACTYL" : {
-		"location" : "Fossil reward for completing Antechamber puzzle",
+		"location" : "Fossil reward for completing Antechamber puzzle, Primordial Research Center",
 		"available" : "Ep9"
 	},
     "FINIZEN" : {
-		"location" : "Primordial Antechamber (Fishing)",
+		"location" : "Primordial Antechamber (Fishing), Undermarsh",
 		"available" : "Ep9"
 	},
     "PALAFIN" : {
@@ -3393,7 +3417,7 @@ var pokemonExtraData = {
 		"available" : "Ep10"
 	},
     "DARUMAKA" : {
-		"location" : "Algol Wall",
+		"location" : "Algol Wall, Moriah Marsh South (egg)",
 		"available" : "Ep10"
 	},
     "DARMANITAN" : {
@@ -3401,7 +3425,7 @@ var pokemonExtraData = {
 		"available" : "Ep10"
 	},
     "PAWNIARD" : {
-		"location" : "Breed Bisharp",
+		"location" : "Breed Bisharp, Nebolan's Neck (Middle), Moriah Marsh",
 		"available" : "Ep10"
 	},
     "BISHARP" : {
@@ -3409,7 +3433,7 @@ var pokemonExtraData = {
 		"available" : "Ep10"
 	},
     "GDarumaka" : {
-		"location" : "Algol's Ice Rink",
+		"location" : "Algol's Ice Rink, Moriah Marsh South (egg)",
 		"available" : "Ep10"
 	},
     "GDarmanitan" : {
@@ -3425,7 +3449,7 @@ var pokemonExtraData = {
 		"available" : "Ep10"
 	},
     "CETODDLE" : {
-		"location" : "The Vein",
+		"location" : "The Vein, Gladeholm",
 		"available" : "Ep10"
 	},
     "CETITAN" : {
@@ -3629,7 +3653,7 @@ var pokemonExtraData = {
 		"available" : "Ep11"
 	},
 	"SHELLDER" : {
-		"location" : "Eridanis Field (fishing), Verde Kitchen",
+		"location" : "Eridanis Field (fishing), Verde Kitchen, Polaris Hollow (Fishing)",
 		"available" : "Ep11"
 	},
 	"BLIPBUG" : {
@@ -3647,6 +3671,410 @@ var pokemonExtraData = {
 	"GASTLY" : {
 		"location" : "Verde Kitchen (trade)",
 		"available" : "Ep11"
+	},
+	"RALTS" : {
+		"location" : "SCCL",
+		"available" : "Ep11"
+	},
+	"KIRLIA" : {
+		"location" : "Evolve Ralts",
+		"available" : "Ep11"
+	},
+	"KORVIA" : {
+		"location" : "Evolve Ralts",
+		"available" : "Ep11"
+	},
+	"GLIMMET" : {
+		"location" : "Nebolan's Neck (Middle)",
+		"available" : "Ep12"
+	},
+	"BRONZOR" : {
+		"location" : "Moriah",
+		"available" : "Ep12"
+	},
+	"STARAVIA" : {
+		"location" : "Moriah, Moriah Marsh",
+		"available" : "Ep12"
+	},
+	"SNYMPH" : {
+		"location" : "Lake Polux (witch quest)",
+		"available" : "Ep12"
+	},
+	"SNOWHIM" : {
+		"location" : "Evolve Snymph",
+		"available" : "Ep12"
+	},
+	"IMPIDIMP" : {
+		"location" : "Lake Polux (witch quest)",
+		"available" : "Ep12"
+	},
+	"MORGREM" : {
+		"location" : "Evolve Impidimp",
+		"available" : "Ep12"
+	},
+	"MAREANIE" : {
+		"location" : "Moriah Marsh, Moriah Marsh North",
+		"available" : "Ep12"
+	},
+	"STARYU" : {
+		"location" : "Moriah Marsh, Moriah Marsh South",
+		"available" : "Ep12"
+	},
+	"FERROSEED" : {
+		"location" : "Moriah Marsh North (gear trades)",
+		"available" : "Ep12"
+	},
+	"CHINGLING" : {
+		"location" : "Moriah Marsh South (trade)",
+		"available" : "Ep12"
+	},
+	"CHIMECHO" : {
+		"location" : "Evolve Chingling",
+		"available" : "Ep12"
+	},
+	"STARYU" : {
+		"location" : "Moriah Marsh",
+		"available" : "Ep12"
+	},
+	"GROOKEY" : {
+		"location" : "Episode 12 Secret Quest Reward (Hint: Ossuaries)",
+		"available" : "Ep12"
+	},
+	"THWACKEY" : {
+		"location" : "Evolve Grookey",
+		"available" : "Ep12"
+	},
+	"SOBBLE" : {
+		"location" : "Episode 12 Secret Quest Reward (Hint: Ossuaries)",
+		"available" : "Ep12"
+	},
+	"DRIZZILE" : {
+		"location" : "Evolve Sobble",
+		"available" : "Ep12"
+	},
+	"SCORBUNNY" : {
+		"location" : "Episode 12 Secret Quest Reward (Hint: Ossuaries)",
+		"available" : "Ep12"
+	},
+	"RABOOT" : {
+		"location" : "Evolve Scorbunny",
+		"available" : "Ep12"
+	},
+	"KADABRA" : {
+		"location" : "Evolve Abra",
+		"available" : "Ep12"
+	},
+	"HAUNTER" : {
+		"location" : "Evolve Gastly",
+		"available" : "Ep12"
+	},
+	"TINKATUFF" : {
+		"location" : "Evolve Tinkatink",
+		"available" : "Ep12"
+	},
+	"STARYU" : {
+		"location" : "Moriah Marsh",
+		"available" : "Ep12"
+	},
+	"FRAXURE" : {
+		"location" : "Evolve Axew, Polaris Mine 9F",
+		"available" : "Ep12.5"
+	},
+	"ARCTIBAX" : {
+		"location" : "Evolve Frigibax",
+		"available" : "Ep12.5"
+	},
+	"EXCELSIUS" : {
+		"location" : "Evolve Arctibax",
+		"available" : "Ep12.5"
+	},
+	"CANOPLETHIO" : {
+		"location" : "Evolve Tropius",
+		"available" : "Ep12.5"
+	},
+	"TENTAKRAKEN" : {
+		"location" : "Evolve Tentacruel",
+		"available" : "Ep12.5"
+	},
+	"HYDREIGON" : {
+		"location" : "Evolve Zweilous",
+		"available" : "Ep12.5"
+	},
+	"ORBEETLE" : {
+		"location" : "Evolve Dottler",
+		"available" : "Ep12.5"
+	},
+	"GLIMMORA" : {
+		"location" : "Evolve Glimmet, Polaris Mine 9F (interact) ",
+		"available" : "Ep13"
+	},
+	"ALAKAZAM" : {
+		"location" : "Evolve Kadabra",
+		"available" : "Ep13"
+	},
+	"GENGAR" : {
+		"location" : "Evolve Haunter",
+		"available" : "Ep13"
+	},
+	"INFERNAPE" : {
+		"location" : "Evolve Monferno",
+		"available" : "Ep13"
+	},
+	"HAXORUS" : {
+		"location" : "Evolve Fraxure, Polaris Mine F9 (rock smash)",
+		"available" : "Ep13"
+	},
+	"TINKATON" : {
+		"location" : "Evolve Tinkatuff",
+		"available" : "Ep13"
+	},
+	"CORVIKNIGHT" : {
+		"location" : "Evolve Corvisquire",
+		"available" : "Ep13"
+	},
+	"GALLADE" : {
+		"location" : "Evolve Korvia",
+		"available" : "Ep13"
+	},
+	"GARDEVOIR" : {
+		"location" : "Evolve Kirlia",
+		"available" : "Ep13"
+	},
+	"NAGANADEL" : {
+		"location" : "Evolve Poipole",
+		"available" : "Ep13"
+	},
+	"URSHIFU" : {
+		"location" : "Evolve Kubfu",
+		"available" : "Ep13"
+	},
+	"STARLY" : {
+		"location" : "Breed Staravia",
+		"available" : "Ep13"
+	},
+	"STARAPTOR" : {
+		"location" : "Evolve Staravia",
+		"available" : "Ep13"
+	},
+	"TOXAPEX" : {
+		"location" : "Evolve Mareanie",
+		"available" : "Ep13"
+	},
+	"FERROTHORN" : {
+		"location" : "Evolve Ferroseed",
+		"available" : "Ep13"
+	},
+	"SCOLIPEDE" : {
+		"location" : "Evolve Whirlipede",
+		"available" : "Ep13"
+	},
+	"STARMIE" : {
+		"location" : "Evolve Staryu",
+		"available" : "Ep13"
+	},
+	"CLOYSTER" : {
+		"location" : "Evolve Shellder",
+		"available" : "Ep13"
+	},
+	"ARCANINE" : {
+		"location" : "Evolve Growlithe",
+		"available" : "Ep13"
+	},
+	"HARCANINE" : {
+		"location" : "Evolve H.Growlithe",
+		"available" : "Ep13"
+	},
+	"CHERRAPHIM" : {
+		"location" : "Evolve Cherrim",
+		"available" : "Ep13"
+	},
+	"CARILLONA" : {
+		"location" : "Evolve Chimecho",
+		"available" : "Ep13"
+	},
+	"CINDERACE" : {
+		"location" : "Evolve Raboot",
+		"available" : "Ep13"
+	},
+	"RILLABOOM" : {
+		"location" : "Evolve Thwackey",
+		"available" : "Ep13"
+	},
+	"INTELEON" : {
+		"location" : "Evolve Drizzile",
+		"available" : "Ep13"
+	},
+	"PILOSWINE" : {
+		"location" : "Evolve Swinub, Polaris Hollow",
+		"available" : "Ep13"
+	},
+	"MAMOSWINE" : {
+		"location" : "Evolve Piloswine",
+		"available" : "Ep13"
+	},
+	"REINCARAB" : {
+		"location" : "Evolve Scaraglob, Polaris Hollow",
+		"available" : "Ep13"
+	},
+	"CLEFABLE" : {
+		"location" : "Evolve Clefairy",
+		"available" : "Ep13"
+	},
+	"MAGNEZONE" : {
+		"location" : "Evolve Magneton",
+		"available" : "Ep13"
+	},
+	"SCIZOR" : {
+		"location" : "Evolve Scyther",
+		"available" : "Ep13"
+	},
+	"VIKAVOLT" : {
+		"location" : "Evolve Charjabug",
+		"available" : "Ep13"
+	},
+	"ANNIHILAPE" : {
+		"location" : "Evolve Primeape",
+		"available" : "Ep13"
+	},
+	"FARIGIRAF" : {
+		"location" : "Evolve Girafarig",
+		"available" : "Ep13"
+	},
+	"KINGAMBIT" : {
+		"location" : "Evolve Bisharp",
+		"available" : "Ep13"
+	},
+	"SALAMENCE" : {
+		"location" : "Evolve Shelgon",
+		"available" : "Ep13"
+	},
+	"MILOTIC" : {
+		"location" : "Evolve Feebas",
+		"available" : "Ep13"
+	},
+	"GYARADOS" : {
+		"location" : "Evolve Magikarp",
+		"available" : "Ep13"
+	},
+	"KINGDRA" : {
+		"location" : "Evolve Seadra",
+		"available" : "Ep13"
+	},
+	"TERRAPAGOS" : {
+		"location" : "Evolve Avaterra",
+		"available" : "Ep13"
+	},
+	"OGERPON" : {
+		"location" : "Find the masks and reuinite them in the jungle",
+		"available" : "Ep13"
+	},
+	"MOLTRES" : {
+		"location" : "Polaris Mine 9F (interact)",
+		"available" : "Ep13"
+	},
+	"ARTICUNO" : {
+		"location" : "Polaris Peak (explorer quest)",
+		"available" : "Ep13"
+	},
+	"ZAPDOS" : {
+		"location" : "Mairenor Heighs (Farfetch quest)",
+		"available" : "Ep13"
+	},
+	"CELEBI" : {
+		"location" : "Crimson Forest (time quest)",
+		"available" : "Ep13"
+	},
+	"NIHILEGO" : {
+		"location" : "Impyramids (Choose Merch)",
+		"available" : "Ep13"
+	},
+	"GUZZLORD" : {
+		"location" : "Impyramids (Choose Vapor)",
+		"available" : "Ep13"
+	},
+	"CHESPIN" : {
+		"location" : "Buy Starlight Estate",
+		"available" : "Ep13"
+	},
+	"QUILLADIN" : {
+		"location" : "Evolve Chespin",
+		"available" : "Ep13"
+	},
+	"CHESNAUGHT" : {
+		"location" : "Evolve Quilladin",
+		"available" : "Ep13"
+	},
+	"TORCHIC" : {
+		"location" : "Buy Illyria Estate",
+		"available" : "Ep13"
+	},
+	"COMBUSKEN" : {
+		"location" : "Evolve Torchic",
+		"available" : "Ep13"
+	},
+	"BLAZIKEN" : {
+		"location" : "Evolve Combusken",
+		"available" : "Ep13"
+	},
+	"FROAKIE" : {
+		"location" : "Buy Mairenor Estate",
+		"available" : "Ep13"
+	},
+	"FROGADIER" : {
+		"location" : "Evolve Froakie",
+		"available" : "Ep13"
+	},
+	"GRENINJA" : {
+		"location" : "Evolve Frogadier",
+		"available" : "Ep13"
+	},
+	"HAWLUCHA" : {
+		"location" : "Eltanin Valley",
+		"available" : "Ep13"
+	},
+	"HARPREY" : {
+		"location" : "Eltanin Valley",
+		"available" : "Ep13"
+	},
+	"EXCADRILL" : {
+		"location" : "The Conquorse, Elta's Deep",
+		"available" : "Ep13"
+	},
+	"Drilbur" : {
+		"location" : "Breed Excadrill",
+		"available" : "Ep13"
+	},
+	"DEOXYS" : {
+		"location" : "Episode 13 Secret Quest Reward (Hint: Deoxys h8 pinky crystals)",
+		"available" : "Ep13"
+	},
+	"MELMETAL" : {
+		"location" : "Evolve Meltan",
+		"available" : "Ep13"
+	},
+	"MANAPHY" : {
+		"location" : "Evolve Phione",
+		"available" : "Ep13"
+	},
+	"HEATRAN" : {
+		"location" : "Evolve Thermolt",
+		"available" : "Ep13"
+	},
+	"DIANCIE" : {
+		"location" : "Evolve Carbink",
+		"available" : "Ep13"
+	},
+	"DEOXYS-1" : {
+		"location" : "",
+		"available" : ""
+	},
+	"DEOXYS-2" : {
+		"location" : "",
+		"available" : ""
+	},
+	"DEOXYS-3" : {
+		"location" : "",
+		"available" : ""
 	},
 }
 // Pre-build a normalized lookup map for 100% case-insensitive matching
