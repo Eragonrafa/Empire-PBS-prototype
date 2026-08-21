@@ -1520,6 +1520,14 @@ var pokemonExtraData = {
 		"location" : "Evolve Snom, Itonda Aisleway",
 		"available" : "Ep4"
 	},
+	"COSMOG" : {
+		"location" : "Calvera Cove",
+		"available" : "Ep4"
+	}, 
+	"COSMOEM" : {
+		"location" : "Evolve Cosmog",
+		"available" : "Ep4"
+	}, 
     "Cryogonal" : {
 		"location" : "Polaris Mine 5F, Overworld in Polaris Pass once Rock Climb is acquired, Itonda Aisleway",
 		"available" : "Ep5"
