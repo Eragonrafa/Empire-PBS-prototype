@@ -324,7 +324,19 @@ function applyFiltersAndSort() {
       if (extra) {
         const loc = (extra.location || '').toLowerCase();
         const ep = (extra.available || '').toLowerCase();
-        locMatch = loc.includes(locQuery) || ep.includes(locQuery);
+
+        // Check if query is targeting an episode specifically (e.g. "ep1", "ep 1", "episode 1")
+        const epSearchMatch = locQuery.match(/^(?:ep|episode)\s*(\d+)$/i);
+
+        if (epSearchMatch) {
+          const targetNum = epSearchMatch[1];
+          // Use regex word boundaries so "ep1" only matches "ep1" or "ep 1", not "ep10", "ep11", etc.
+          const epRegex = new RegExp(`\\b(?:ep|episode)\\s*${targetNum}\\b`, 'i');
+          locMatch = epRegex.test(ep) || epRegex.test(loc);
+        } else {
+          // Standard partial search for locations (e.g. "polaris", "route 1")
+          locMatch = loc.includes(locQuery) || ep.includes(locQuery);
+        }
       } else {
         locMatch = false;
       }
