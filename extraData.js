@@ -857,7 +857,7 @@ var pokemonExtraData = {
 		"available" : "Ep3"
 	},
     "VESUPIUS" : {
-		"location" : "Evolve Larvesta",
+		"location" : "Evolve Larvesta,  Crimson Foothills",
 		"available" : "Ep3"
 	},
     "LAMPENT" : {
