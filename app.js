@@ -301,10 +301,20 @@ function applyFiltersAndSort() {
   const sortBy = document.getElementById('sort-by').value;
 
   let filtered = pokemonList.filter(pkmn => {
-    const nameMatch = !nameQuery || 
-      (pkmn.Name && pkmn.Name.toLowerCase().includes(nameQuery)) ||
-      (pkmn.InternalName && pkmn.InternalName.toLowerCase().includes(nameQuery));
-    
+    let nameMatch = true;
+    if (nameQuery) {
+      const pName = (pkmn.Name || '').toLowerCase();
+      const pInternal = (pkmn.InternalName || '').toLowerCase();
+
+      const directMatch = pName.includes(nameQuery) || pInternal.includes(nameQuery);
+      const nameTokens = nameQuery.split(/\s+/).filter(Boolean);
+      const tokenMatch = nameTokens.some(token =>
+        pName.includes(token) || pInternal.includes(token)
+      );
+
+      nameMatch = directMatch || tokenMatch;
+    }
+
     let typeMatch = true;
     const pTypes = [pkmn.Type1, pkmn.Type2].filter(Boolean);
     if (type1Query && type2Query) {
@@ -314,7 +324,7 @@ function applyFiltersAndSort() {
     } else if (type2Query) {
       typeMatch = pTypes.includes(type2Query);
     }
-
+    
     const eggMatch = !eggQuery || (pkmn.Compatibility && pkmn.Compatibility.toLowerCase().includes(eggQuery));
 
     // Location / Episode filter check
