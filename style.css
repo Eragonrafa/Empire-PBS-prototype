@@ -149,14 +149,19 @@ header .subtitle {
    Table Layout
    ========================================================================== */
 .table-wrapper {
+  width: 100%;
   overflow-x: auto;
+  overflow-y: visible;
   border: 1px solid #374151;
   border-radius: 8px;
   background-color: #111827;
+  /* Smooth scrolling on touch devices */
+  -webkit-overflow-scrolling: touch;
 }
 
 table {
   width: 100%;
+  min-width: 1050px; /* Forces horizontal scrollbar when screen is narrower than 1050px */
   border-collapse: collapse;
   text-align: left;
   font-size: 13px;
