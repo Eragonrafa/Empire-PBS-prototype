@@ -643,4 +643,34 @@ body.pure-black .flag-badge {
     max-height: 85vh;
     overflow-y: auto;
   }
+  /* Sticky Bottom Horizontal Scrollbar */
+  .sticky-scrollbar {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   overflow-x: auto;
+   overflow-y: hidden;
+   z-index: 1000;
+   background: rgba(17, 24, 39, 0.9);
+   border-top: 1px solid #374151;
+   height: 16px;
+  }
+
+  .sticky-scrollbar::-webkit-scrollbar {
+   height: 12px;
+  }
+
+  .sticky-scrollbar::-webkit-scrollbar-thumb {
+   background: #4b5563;
+   border-radius: 6px;
+  }
+
+  .sticky-scrollbar::-webkit-scrollbar-thumb:hover {
+   background: #60a5fa;
+  }
+
+  #sticky-scrollbar-inner {
+   height: 1px;
+  }   
 }
