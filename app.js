@@ -284,6 +284,8 @@ function renderTable(list) {
     `;
     tbody.appendChild(row);
   });
+  
+  setupStickyScrollbar();
 }
 
 // Filter and Sort Controller
@@ -563,5 +565,35 @@ function closeModal(event) {
     document.getElementById('modal-overlay').classList.add('hidden');
   }
 }
+function setupStickyScrollbar() {
+  const tableWrapper = document.querySelector('.table-wrapper');
+  const table = tableWrapper?.querySelector('table');
+  const stickyBar = document.getElementById('sticky-scrollbar');
+  const stickyInner = document.getElementById('sticky-scrollbar-inner');
 
+  if (!tableWrapper || !table || !stickyBar || !stickyInner) return;
+
+  const updateWidth = () => {
+    stickyInner.style.width = table.scrollWidth + 'px';
+    stickyBar.style.display = table.scrollWidth > tableWrapper.clientWidth ? 'block' : 'none';
+  };
+
+  let isSyncing = false;
+  stickyBar.addEventListener('scroll', () => {
+    if (isSyncing) return;
+    isSyncing = true;
+    tableWrapper.scrollLeft = stickyBar.scrollLeft;
+    isSyncing = false;
+  });
+
+  tableWrapper.addEventListener('scroll', () => {
+    if (isSyncing) return;
+    isSyncing = true;
+    stickyBar.scrollLeft = tableWrapper.scrollLeft;
+    isSyncing = false;
+  });
+
+  window.addEventListener('resize', updateWidth);
+  updateWidth();
+}
 document.addEventListener('DOMContentLoaded', init);
